@@ -1,0 +1,394 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Aluno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artigo_em_Conferência"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artigo_em_Revista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Departamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instituto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Professor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publicação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tese_de_Doutorado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tese_de_Mestrado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#filiado_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#formado_por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#parte_de"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publica"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_professor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#André"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arnaldo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carlinhos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coelho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DCC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flávio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fábio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IME"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Junior"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MAE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MAP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MAT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Renata"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ronaldo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yoshiko"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Departamento"/>
+        <Class IRI="#Instituto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Publicação"/>
+        <Class IRI="#Professor"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Professor"/>
+        <NamedIndividual IRI="#André"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#filiado_a"/>
+            <Class IRI="#Departamento"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#André"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professor"/>
+        <NamedIndividual IRI="#Arnaldo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#filiado_a"/>
+            <Class IRI="#Departamento"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Arnaldo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professor"/>
+        <NamedIndividual IRI="#Carlinhos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#filiado_a"/>
+            <Class IRI="#Departamento"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Carlinhos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professor"/>
+        <NamedIndividual IRI="#Coelho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#filiado_a"/>
+            <Class IRI="#Departamento"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Coelho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Departamento"/>
+        <NamedIndividual IRI="#DCC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#parte_de"/>
+            <Class IRI="#Instituto"/>
+        </ObjectExactCardinality>
+        <NamedIndividual IRI="#DCC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professor"/>
+        <NamedIndividual IRI="#Flávio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#filiado_a"/>
+            <Class IRI="#Departamento"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Flávio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professor"/>
+        <NamedIndividual IRI="#Fábio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#filiado_a"/>
+            <Class IRI="#Departamento"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Fábio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instituto"/>
+        <NamedIndividual IRI="#IME"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#formado_por"/>
+            <Class IRI="#Departamento"/>
+        </ObjectMinCardinality>
+        <NamedIndividual IRI="#IME"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professor"/>
+        <NamedIndividual IRI="#Junior"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#filiado_a"/>
+            <Class IRI="#Departamento"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Junior"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Departamento"/>
+        <NamedIndividual IRI="#MAE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#parte_de"/>
+            <Class IRI="#Instituto"/>
+        </ObjectExactCardinality>
+        <NamedIndividual IRI="#MAE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Departamento"/>
+        <NamedIndividual IRI="#MAP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#parte_de"/>
+            <Class IRI="#Instituto"/>
+        </ObjectExactCardinality>
+        <NamedIndividual IRI="#MAP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Departamento"/>
+        <NamedIndividual IRI="#MAT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#parte_de"/>
+            <Class IRI="#Instituto"/>
+        </ObjectExactCardinality>
+        <NamedIndividual IRI="#MAT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professor"/>
+        <NamedIndividual IRI="#Renata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#filiado_a"/>
+            <Class IRI="#Departamento"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Renata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professor"/>
+        <NamedIndividual IRI="#Ronaldo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#filiado_a"/>
+            <Class IRI="#Departamento"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Ronaldo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professor"/>
+        <NamedIndividual IRI="#Yoshiko"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#filiado_a"/>
+            <Class IRI="#Departamento"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Yoshiko"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#filiado_a"/>
+        <NamedIndividual IRI="#André"/>
+        <NamedIndividual IRI="#DCC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#filiado_a"/>
+        <NamedIndividual IRI="#Arnaldo"/>
+        <NamedIndividual IRI="#DCC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#filiado_a"/>
+        <NamedIndividual IRI="#Carlinhos"/>
+        <NamedIndividual IRI="#DCC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#filiado_a"/>
+        <NamedIndividual IRI="#Coelho"/>
+        <NamedIndividual IRI="#DCC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#parte_de"/>
+        <NamedIndividual IRI="#DCC"/>
+        <NamedIndividual IRI="#IME"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#filiado_a"/>
+        <NamedIndividual IRI="#Flávio"/>
+        <NamedIndividual IRI="#DCC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#filiado_a"/>
+        <NamedIndividual IRI="#Fábio"/>
+        <NamedIndividual IRI="#DCC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#formado_por"/>
+        <NamedIndividual IRI="#IME"/>
+        <NamedIndividual IRI="#MAT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#formado_por"/>
+        <NamedIndividual IRI="#IME"/>
+        <NamedIndividual IRI="#MAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#formado_por"/>
+        <NamedIndividual IRI="#IME"/>
+        <NamedIndividual IRI="#DCC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#formado_por"/>
+        <NamedIndividual IRI="#IME"/>
+        <NamedIndividual IRI="#MAE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#filiado_a"/>
+        <NamedIndividual IRI="#Junior"/>
+        <NamedIndividual IRI="#DCC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#parte_de"/>
+        <NamedIndividual IRI="#MAE"/>
+        <NamedIndividual IRI="#IME"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#parte_de"/>
+        <NamedIndividual IRI="#MAP"/>
+        <NamedIndividual IRI="#IME"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#parte_de"/>
+        <NamedIndividual IRI="#MAT"/>
+        <NamedIndividual IRI="#IME"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#filiado_a"/>
+        <NamedIndividual IRI="#Renata"/>
+        <NamedIndividual IRI="#DCC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#filiado_a"/>
+        <NamedIndividual IRI="#Ronaldo"/>
+        <NamedIndividual IRI="#DCC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#filiado_a"/>
+        <NamedIndividual IRI="#Yoshiko"/>
+        <NamedIndividual IRI="#DCC"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#publica"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#filiado_a"/>
+        <ObjectProperty IRI="#tem_professor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#parte_de"/>
+        <ObjectProperty IRI="#formado_por"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#filiado_a"/>
+    </TransitiveObjectProperty>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

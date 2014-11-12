@@ -1,0 +1,387 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-3 "http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:untitled-ontology-3="http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Ontology rdf:about="http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#filiado_a -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-3;filiado_a">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <inverseOf rdf:resource="&untitled-ontology-3;tem_professor"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#formado_por -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-3;formado_por"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#parte_de -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-3;parte_de">
+        <inverseOf rdf:resource="&untitled-ontology-3;formado_por"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#publica -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-3;publica">
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#tem_professor -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-3;tem_professor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Aluno -->
+
+    <Class rdf:about="&untitled-ontology-3;Aluno"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Artigo_em_Conferência -->
+
+    <Class rdf:about="&untitled-ontology-3;Artigo_em_Conferência"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Artigo_em_Revista -->
+
+    <Class rdf:about="&untitled-ontology-3;Artigo_em_Revista"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Departamento -->
+
+    <Class rdf:about="&untitled-ontology-3;Departamento">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-3;Instituto"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Instituto -->
+
+    <Class rdf:about="&untitled-ontology-3;Instituto"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Professor -->
+
+    <Class rdf:about="&untitled-ontology-3;Professor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Publicação -->
+
+    <Class rdf:about="&untitled-ontology-3;Publicação">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-3;Professor"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Tese_de_Doutorado -->
+
+    <Class rdf:about="&untitled-ontology-3;Tese_de_Doutorado"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Tese_de_Mestrado -->
+
+    <Class rdf:about="&untitled-ontology-3;Tese_de_Mestrado"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#André -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-3;André">
+        <rdf:type rdf:resource="&untitled-ontology-3;Professor"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-3;filiado_a"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-3;Departamento"/>
+            </Restriction>
+        </rdf:type>
+        <untitled-ontology-3:filiado_a rdf:resource="&untitled-ontology-3;DCC"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Arnaldo -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-3;Arnaldo">
+        <rdf:type rdf:resource="&untitled-ontology-3;Professor"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-3;filiado_a"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-3;Departamento"/>
+            </Restriction>
+        </rdf:type>
+        <untitled-ontology-3:filiado_a rdf:resource="&untitled-ontology-3;DCC"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Carlinhos -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-3;Carlinhos">
+        <rdf:type rdf:resource="&untitled-ontology-3;Professor"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-3;filiado_a"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-3;Departamento"/>
+            </Restriction>
+        </rdf:type>
+        <untitled-ontology-3:filiado_a rdf:resource="&untitled-ontology-3;DCC"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Coelho -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-3;Coelho">
+        <rdf:type rdf:resource="&untitled-ontology-3;Professor"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-3;filiado_a"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-3;Departamento"/>
+            </Restriction>
+        </rdf:type>
+        <untitled-ontology-3:filiado_a rdf:resource="&untitled-ontology-3;DCC"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#DCC -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-3;DCC">
+        <rdf:type rdf:resource="&untitled-ontology-3;Departamento"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-3;parte_de"/>
+                <onClass rdf:resource="&untitled-ontology-3;Instituto"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdf:type>
+        <untitled-ontology-3:parte_de rdf:resource="&untitled-ontology-3;IME"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Flávio -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-3;Flávio">
+        <rdf:type rdf:resource="&untitled-ontology-3;Professor"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-3;filiado_a"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-3;Departamento"/>
+            </Restriction>
+        </rdf:type>
+        <untitled-ontology-3:filiado_a rdf:resource="&untitled-ontology-3;DCC"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Fábio -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-3;Fábio">
+        <rdf:type rdf:resource="&untitled-ontology-3;Professor"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-3;filiado_a"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-3;Departamento"/>
+            </Restriction>
+        </rdf:type>
+        <untitled-ontology-3:filiado_a rdf:resource="&untitled-ontology-3;DCC"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#IME -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-3;IME">
+        <rdf:type rdf:resource="&untitled-ontology-3;Instituto"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-3;formado_por"/>
+                <onClass rdf:resource="&untitled-ontology-3;Departamento"/>
+                <minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</minQualifiedCardinality>
+            </Restriction>
+        </rdf:type>
+        <untitled-ontology-3:formado_por rdf:resource="&untitled-ontology-3;DCC"/>
+        <untitled-ontology-3:formado_por rdf:resource="&untitled-ontology-3;MAE"/>
+        <untitled-ontology-3:formado_por rdf:resource="&untitled-ontology-3;MAP"/>
+        <untitled-ontology-3:formado_por rdf:resource="&untitled-ontology-3;MAT"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Junior -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-3;Junior">
+        <rdf:type rdf:resource="&untitled-ontology-3;Professor"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-3;filiado_a"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-3;Departamento"/>
+            </Restriction>
+        </rdf:type>
+        <untitled-ontology-3:filiado_a rdf:resource="&untitled-ontology-3;DCC"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#MAE -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-3;MAE">
+        <rdf:type rdf:resource="&untitled-ontology-3;Departamento"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-3;parte_de"/>
+                <onClass rdf:resource="&untitled-ontology-3;Instituto"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdf:type>
+        <untitled-ontology-3:parte_de rdf:resource="&untitled-ontology-3;IME"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#MAP -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-3;MAP">
+        <rdf:type rdf:resource="&untitled-ontology-3;Departamento"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-3;parte_de"/>
+                <onClass rdf:resource="&untitled-ontology-3;Instituto"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdf:type>
+        <untitled-ontology-3:parte_de rdf:resource="&untitled-ontology-3;IME"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#MAT -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-3;MAT">
+        <rdf:type rdf:resource="&untitled-ontology-3;Departamento"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-3;parte_de"/>
+                <onClass rdf:resource="&untitled-ontology-3;Instituto"/>
+                <qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</qualifiedCardinality>
+            </Restriction>
+        </rdf:type>
+        <untitled-ontology-3:parte_de rdf:resource="&untitled-ontology-3;IME"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Renata -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-3;Renata">
+        <rdf:type rdf:resource="&untitled-ontology-3;Professor"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-3;filiado_a"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-3;Departamento"/>
+            </Restriction>
+        </rdf:type>
+        <untitled-ontology-3:filiado_a rdf:resource="&untitled-ontology-3;DCC"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Ronaldo -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-3;Ronaldo">
+        <rdf:type rdf:resource="&untitled-ontology-3;Professor"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-3;filiado_a"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-3;Departamento"/>
+            </Restriction>
+        </rdf:type>
+        <untitled-ontology-3:filiado_a rdf:resource="&untitled-ontology-3;DCC"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cadu/ontologies/2014/10/untitled-ontology-3#Yoshiko -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-3;Yoshiko">
+        <rdf:type rdf:resource="&untitled-ontology-3;Professor"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&untitled-ontology-3;filiado_a"/>
+                <someValuesFrom rdf:resource="&untitled-ontology-3;Departamento"/>
+            </Restriction>
+        </rdf:type>
+        <untitled-ontology-3:filiado_a rdf:resource="&untitled-ontology-3;DCC"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
