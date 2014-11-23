@@ -1,0 +1,33 @@
+Pessoas
+-------
+aluno de pós
+orientador
+professor
+orientando
+autor
+co-autor
+
+
+Documentos
+----------
+revista
+artigo (em revista)
+
+
+Organizações
+------------
+departamento
+IME
+
+
+Localização
+-----------
+Europa
+Brasil
+
+
+Data
+----
+Ano
+mês
+dia
