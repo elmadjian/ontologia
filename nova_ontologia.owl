@@ -80,6 +80,24 @@
         <Class IRI="Project"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Aluno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Co-autor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orientador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orientando"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Professor"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="rdfs:Class"/>
     </Declaration>
     <Declaration>
@@ -204,6 +222,12 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="yahooChatID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#orienta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é_orientado_por"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="accountName"/>
@@ -358,6 +382,30 @@
         <Class IRI="PersonalProfileDocument"/>
         <Class IRI="Document"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aluno"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autor"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Co-autor"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orientador"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orientando"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Professor"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="Document"/>
         <Class IRI="Organization"/>
@@ -373,6 +421,10 @@
     <DisjointClasses>
         <Class IRI="Person"/>
         <Class IRI="Project"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aluno"/>
+        <Class IRI="#Professor"/>
     </DisjointClasses>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="aimChatID"/>
@@ -431,12 +483,16 @@
         <ObjectProperty IRI="isPrimaryTopicOf"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="maker"/>
         <ObjectProperty IRI="made"/>
+        <ObjectProperty IRI="maker"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="page"/>
         <ObjectProperty IRI="topic"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#é_orientado_por"/>
+        <ObjectProperty IRI="#orienta"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="primaryTopic"/>
@@ -637,6 +693,10 @@
         <ObjectProperty IRI="yahooChatID"/>
         <Class IRI="Agent"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#orienta"/>
+        <Class IRI="#Professor"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="account"/>
         <Class IRI="OnlineAccount"/>
@@ -768,6 +828,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="workplaceHomepage"/>
         <Class IRI="Document"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#orienta"/>
+        <Class IRI="#Aluno"/>
     </ObjectPropertyRange>
     <FunctionalDataProperty>
         <DataProperty IRI="age"/>
