@@ -1,2 +1,3 @@
 scriptlattes
 *.swp
+__pycache__
