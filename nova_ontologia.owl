@@ -1,885 +1,636 @@
 <?xml version="1.0"?>
 
 
-<!DOCTYPE Ontology [
+<!DOCTYPE rdf:RDF [
+    <!ENTITY wot "http://xmlns.com/wot/0.1/" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY renata "http://www.ime.usp.br/~renata/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#" >
 ]>
 
 
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.ime.usp.br/~renata/FOAF-modified"
+<rdf:RDF xmlns="&renata;FOAF-modified#"
+     xml:base="&renata;FOAF-modified"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wot="http://xmlns.com/wot/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:renata="http://www.ime.usp.br/~renata/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     ontologyIRI="http://www.ime.usp.br/~renata/FOAF-modified">
-    <Prefix name="" IRI="http://www.ime.usp.br/~renata/FOAF-modified#"/>
-    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
-    <Prefix name="vs" IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="wot" IRI="http://xmlns.com/wot/0.1/"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="renata" IRI="http://www.ime.usp.br/~renata/"/>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:description"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language.</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:title"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Friend of a Friend (FOAF) vocabulary</Literal>
-    </Annotation>
-    <Declaration>
-        <Class IRI="http://schema.org/CreativeWork"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://schema.org/ImageObject"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Agent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Document"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Image"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="LabelProperty"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="OnlineAccount"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="OnlineChatAccount"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="OnlineEcommerceAccount"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="OnlineGamingAccount"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Organization"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Person"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="PersonalProfileDocument"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Project"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Aluno"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#AlunoGraduacao"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#AlunoPosGraduacao"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Artigo"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ArtigoEmConferencia"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ArtigoEmRevista"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Conferencia"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Departamento"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Instituto"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Lugar"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Professor"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Revista"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Universidade"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="made"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="maker"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="publications"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#compostoPor"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#estudouEm"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#filiado"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#orienta"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#orientado"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="familyName"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="firstName"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#anoPublicacao"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#name"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#nomeLugar"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Arnaldo_Mandel"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Departamento_de_Ciência_Da_Computação"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Departamento_de_Estatística"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Departamento_de_Matemática_Aplicada"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Instituto_de_Matemática_e_Estatística"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Universidade_de_São_Paulo"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:date"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:description"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:title"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="membershipClass"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="name"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="wot:assurance"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="wot:src_assurance"/>
-    </Declaration>
-    <EquivalentClasses>
-        <Class IRI="http://schema.org/CreativeWork"/>
-        <Class IRI="Document"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://schema.org/ImageObject"/>
-        <Class IRI="Image"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#Professor"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#filiado"/>
-            <Class IRI="#Departamento"/>
-        </ObjectSomeValuesFrom>
-    </EquivalentClasses>
-    <SubClassOf>
-        <Class IRI="Image"/>
-        <Class IRI="Document"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="OnlineAccount"/>
-        <Class abbreviatedIRI="owl:Thing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="OnlineChatAccount"/>
-        <Class IRI="OnlineAccount"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="OnlineEcommerceAccount"/>
-        <Class IRI="OnlineAccount"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="OnlineGamingAccount"/>
-        <Class IRI="OnlineAccount"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Organization"/>
-        <Class IRI="Agent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Person"/>
-        <Class IRI="Agent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Person"/>
-        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="PersonalProfileDocument"/>
-        <Class IRI="Document"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Aluno"/>
-        <Class IRI="Person"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#AlunoGraduacao"/>
-        <Class IRI="#Aluno"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#AlunoPosGraduacao"/>
-        <Class IRI="#Aluno"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Artigo"/>
-        <Class IRI="http://schema.org/CreativeWork"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ArtigoEmConferencia"/>
-        <Class IRI="#Artigo"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ArtigoEmRevista"/>
-        <Class IRI="#Artigo"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Departamento"/>
-        <Class IRI="Organization"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Instituto"/>
-        <Class IRI="Organization"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Lugar"/>
-        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Professor"/>
-        <Class IRI="Person"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Revista"/>
-        <Class IRI="http://schema.org/CreativeWork"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Universidade"/>
-        <Class IRI="Organization"/>
-    </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="http://schema.org/CreativeWork"/>
-        <Class IRI="Person"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="Document"/>
-        <Class IRI="Organization"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="Document"/>
-        <Class IRI="Project"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="Organization"/>
-        <Class IRI="Person"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="Person"/>
-        <Class IRI="Project"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Aluno"/>
-        <Class IRI="#Professor"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#AlunoGraduacao"/>
-        <Class IRI="#AlunoPosGraduacao"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Departamento"/>
-        <Class IRI="#Instituto"/>
-        <Class IRI="#Universidade"/>
-    </DisjointClasses>
-    <ClassAssertion>
-        <Class IRI="#Professor"/>
-        <NamedIndividual IRI="#Arnaldo_Mandel"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Departamento"/>
-        <NamedIndividual IRI="#Departamento_de_Ciência_Da_Computação"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Departamento"/>
-        <NamedIndividual IRI="#Departamento_de_Estatística"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Departamento"/>
-        <NamedIndividual IRI="#Departamento_de_Matemática_Aplicada"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Instituto"/>
-        <NamedIndividual IRI="#Instituto_de_Matemática_e_Estatística"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Universidade"/>
-        <NamedIndividual IRI="#Universidade_de_São_Paulo"/>
-    </ClassAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#filiado"/>
-        <NamedIndividual IRI="#Arnaldo_Mandel"/>
-        <NamedIndividual IRI="#Departamento_de_Ciência_Da_Computação"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#compostoPor"/>
-        <NamedIndividual IRI="#Instituto_de_Matemática_e_Estatística"/>
-        <NamedIndividual IRI="#Departamento_de_Ciência_Da_Computação"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#compostoPor"/>
-        <NamedIndividual IRI="#Instituto_de_Matemática_e_Estatística"/>
-        <NamedIndividual IRI="#Departamento_de_Matemática_Aplicada"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#compostoPor"/>
-        <NamedIndividual IRI="#Instituto_de_Matemática_e_Estatística"/>
-        <NamedIndividual IRI="#Departamento_de_Estatística"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#compostoPor"/>
-        <NamedIndividual IRI="#Universidade_de_São_Paulo"/>
-        <NamedIndividual IRI="#Instituto_de_Matemática_e_Estatística"/>
-    </ObjectPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="familyName"/>
-        <NamedIndividual IRI="#Arnaldo_Mandel"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Mandel</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="firstName"/>
-        <NamedIndividual IRI="#Arnaldo_Mandel"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Arnaldo</Literal>
-    </DataPropertyAssertion>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="publications"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="made"/>
-        <ObjectProperty IRI="maker"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#orienta"/>
-        <ObjectProperty IRI="#orientado"/>
-    </InverseObjectProperties>
-    <TransitiveObjectProperty>
-        <ObjectProperty IRI="#compostoPor"/>
-    </TransitiveObjectProperty>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="made"/>
-        <Class IRI="Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="maker"/>
-        <Class abbreviatedIRI="owl:Thing"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="publications"/>
-        <Class IRI="Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#compostoPor"/>
-        <Class IRI="Organization"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#estudouEm"/>
-        <Class IRI="Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#filiado"/>
-        <Class IRI="Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#orienta"/>
-        <Class IRI="#Professor"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="made"/>
-        <Class abbreviatedIRI="owl:Thing"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="maker"/>
-        <Class IRI="Agent"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="publications"/>
-        <Class IRI="Document"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#compostoPor"/>
-        <Class IRI="Organization"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#estudouEm"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#filiado"/>
-        <Class IRI="Organization"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#orienta"/>
-        <Class IRI="#Aluno"/>
-    </ObjectPropertyRange>
-    <DataPropertyDomain>
-        <DataProperty IRI="familyName"/>
-        <Class IRI="Person"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="firstName"/>
-        <Class IRI="Person"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#anoPublicacao"/>
-        <Class IRI="http://schema.org/CreativeWork"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#name"/>
-        <Class abbreviatedIRI="owl:Thing"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#nomeLugar"/>
-        <Class IRI="#Lugar"/>
-    </DataPropertyDomain>
-    <DataPropertyRange>
-        <DataProperty IRI="familyName"/>
-        <Datatype abbreviatedIRI="rdfs:Literal"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="firstName"/>
-        <Datatype abbreviatedIRI="rdfs:Literal"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#anoPublicacao"/>
-        <Datatype abbreviatedIRI="xsd:dateTime"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#name"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#nomeLugar"/>
-        <Datatype abbreviatedIRI="rdfs:Literal"/>
-    </DataPropertyRange>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Agent</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">An agent (eg. person, group, software or physical artifact).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Agent</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Agent</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>Agent</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Document</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A document.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Document</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Document</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Document</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>Document</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Image</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">An image.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Image</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Image</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Image</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>Image</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>LabelProperty</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A foaf:LabelProperty is any RDF property with texual values that serve as labels.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>LabelProperty</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>LabelProperty</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Label Property</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>LabelProperty</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>OnlineAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">An online account.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>OnlineAccount</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>OnlineAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Online Account</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>OnlineAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>OnlineChatAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">An online chat account.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>OnlineChatAccount</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>OnlineChatAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Online Chat Account</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>OnlineChatAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>OnlineEcommerceAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">An online e-commerce account.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>OnlineEcommerceAccount</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>OnlineEcommerceAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Online E-commerce Account</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>OnlineEcommerceAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>OnlineGamingAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">An online gaming account.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>OnlineGamingAccount</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>OnlineGamingAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Online Gaming Account</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>OnlineGamingAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Organization</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">An organization.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Organization</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Organization</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Organization</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>Organization</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Person</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A person.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Person</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Person</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Person</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>Person</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>PersonalProfileDocument</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A personal profile RDF document.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>PersonalProfileDocument</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">PersonalProfileDocument</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>PersonalProfileDocument</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Project</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A project (a collective endeavour of some kind).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Project</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Project</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Project</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>Project</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>familyName</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The family name of some person.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>familyName</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>familyName</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">familyName</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>familyName</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>firstName</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The first name of a person.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>firstName</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>firstName</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">firstName</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>firstName</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>made</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Something that was made by this agent.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>made</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>made</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">made</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>made</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>maker</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">An agent that  made this thing.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>maker</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>maker</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">maker</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>maker</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>membershipClass</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Indicates the class of individuals that are a member of a Group</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>membershipClass</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>membershipClass</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">membershipClass</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>membershipClass</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>publications</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A link to the publications of this person.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>publications</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>publications</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">publications</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>publications</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="name"/>
-        <IRI>#Arnaldo_Mandel</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Arnaldo Mandel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Thing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Spatial Thing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.w3.org/2004/02/skos/core#Concept</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Concept</Literal>
-    </AnnotationAssertion>
-    <SubAnnotationPropertyOf>
-        <AnnotationProperty IRI="name"/>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-    </SubAnnotationPropertyOf>
-    <AnnotationPropertyDomain>
-        <AnnotationProperty IRI="name"/>
-        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
-    </AnnotationPropertyDomain>
-</Ontology>
+     xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">
+    <owl:Ontology rdf:about="&renata;FOAF-modified">
+        <dc:description>The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language.</dc:description>
+        <dc:title>Friend of a Friend (FOAF) vocabulary</dc:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="&dc;date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="&dc;description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="&dc;title"/>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modifiedmembershipClass -->
+
+    <owl:AnnotationProperty rdf:about="&renata;FOAF-modifiedmembershipClass">
+        <rdfs:label>membershipClass</rdfs:label>
+        <vs:term_status>unstable</vs:term_status>
+        <rdfs:comment>Indicates the class of individuals that are a member of a Group</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modifiedname -->
+
+    <owl:AnnotationProperty rdf:about="&renata;FOAF-modifiedname">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+        <rdfs:domain rdf:resource="&owl;Thing"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
+
+    <owl:AnnotationProperty rdf:about="&vs;term_status"/>
+    
+
+
+    <!-- http://xmlns.com/wot/0.1/assurance -->
+
+    <owl:AnnotationProperty rdf:about="&wot;assurance"/>
+    
+
+
+    <!-- http://xmlns.com/wot/0.1/src_assurance -->
+
+    <owl:AnnotationProperty rdf:about="&wot;src_assurance"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modifiedmade -->
+
+    <owl:ObjectProperty rdf:about="&renata;FOAF-modifiedmade">
+        <rdfs:label>made</rdfs:label>
+        <rdfs:comment>Something that was made by this agent.</rdfs:comment>
+        <vs:term_status>stable</vs:term_status>
+        <owl:inverseOf rdf:resource="&renata;FOAF-modifiedmaker"/>
+        <rdfs:range rdf:resource="&owl;Thing"/>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modifiedmaker -->
+
+    <owl:ObjectProperty rdf:about="&renata;FOAF-modifiedmaker">
+        <rdfs:label>maker</rdfs:label>
+        <rdfs:comment>An agent that  made this thing.</rdfs:comment>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:domain rdf:resource="&owl;Thing"/>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modifiedpublications -->
+
+    <owl:ObjectProperty rdf:about="&renata;FOAF-modifiedpublications">
+        <rdfs:label>publications</rdfs:label>
+        <rdfs:comment>A link to the publications of this person.</rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:range rdf:resource="http://schema.org/Documento"/>
+        <rdfs:domain rdf:resource="&renata;FOAF-modifiedPerson"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#afiliado -->
+
+    <owl:ObjectProperty rdf:about="&renata;FOAF-modified#afiliado">
+        <rdfs:range rdf:resource="&renata;FOAF-modifiedOrganization"/>
+        <rdfs:domain rdf:resource="&renata;FOAF-modifiedPerson"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#compostoPor -->
+
+    <owl:ObjectProperty rdf:about="&renata;FOAF-modified#compostoPor">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:range rdf:resource="&renata;FOAF-modifiedOrganization"/>
+        <rdfs:domain rdf:resource="&renata;FOAF-modifiedOrganization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#compostoPorLugar -->
+
+    <owl:ObjectProperty rdf:about="&renata;FOAF-modified#compostoPorLugar">
+        <rdfs:domain rdf:resource="&renata;FOAF-modified#Continente"/>
+        <rdfs:range rdf:resource="&renata;FOAF-modified#País"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#estudouEm -->
+
+    <owl:ObjectProperty rdf:about="&renata;FOAF-modified#estudouEm">
+        <rdfs:domain rdf:resource="&renata;FOAF-modifiedPerson"/>
+        <rdfs:range rdf:resource="&renata;FOAF-modified#Lugar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#fazParte -->
+
+    <owl:ObjectProperty rdf:about="&renata;FOAF-modified#fazParte">
+        <owl:inverseOf rdf:resource="&renata;FOAF-modified#compostoPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#publicadoEm -->
+
+    <owl:ObjectProperty rdf:about="&renata;FOAF-modified#publicadoEm">
+        <rdfs:domain rdf:resource="&renata;FOAF-modified#Artigo"/>
+        <rdfs:range rdf:resource="&renata;FOAF-modified#Conferencia"/>
+        <rdfs:range rdf:resource="&renata;FOAF-modified#Revista"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#temAutor -->
+
+    <owl:ObjectProperty rdf:about="&renata;FOAF-modified#temAutor">
+        <rdfs:domain rdf:resource="http://schema.org/Documento"/>
+        <rdfs:range rdf:resource="&renata;FOAF-modifiedPerson"/>
+        <owl:inverseOf rdf:resource="&renata;FOAF-modifiedpublications"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#temOrientador -->
+
+    <owl:ObjectProperty rdf:about="&renata;FOAF-modified#temOrientador">
+        <rdfs:domain rdf:resource="&renata;FOAF-modifiedPerson"/>
+        <rdfs:domain rdf:resource="&renata;FOAF-modified#Dissertacao_de_mestrado"/>
+        <rdfs:range rdf:resource="&renata;FOAF-modified#Professor"/>
+        <rdfs:domain rdf:resource="&renata;FOAF-modified#Tese_de_doutorado"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modifiedfamilyName -->
+
+    <owl:DatatypeProperty rdf:about="&renata;FOAF-modifiedfamilyName">
+        <rdfs:label>familyName</rdfs:label>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:comment>The family name of some person.</rdfs:comment>
+        <rdfs:domain rdf:resource="&renata;FOAF-modifiedPerson"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modifiedfirstName -->
+
+    <owl:DatatypeProperty rdf:about="&renata;FOAF-modifiedfirstName">
+        <rdfs:label>firstName</rdfs:label>
+        <rdfs:comment>The first name of a person.</rdfs:comment>
+        <vs:term_status>testing</vs:term_status>
+        <rdfs:domain rdf:resource="&renata;FOAF-modifiedPerson"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#anoPublicacao -->
+
+    <owl:DatatypeProperty rdf:about="&renata;FOAF-modified#anoPublicacao">
+        <rdfs:domain rdf:resource="http://schema.org/Documento"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#nomeCitacao -->
+
+    <owl:DatatypeProperty rdf:about="&renata;FOAF-modified#nomeCitacao">
+        <rdfs:domain rdf:resource="&renata;FOAF-modifiedPerson"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#nomeConferencia -->
+
+    <owl:DatatypeProperty rdf:about="&renata;FOAF-modified#nomeConferencia">
+        <rdfs:domain rdf:resource="&renata;FOAF-modified#Conferencia"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#nomeLugar -->
+
+    <owl:DatatypeProperty rdf:about="&renata;FOAF-modified#nomeLugar">
+        <rdfs:domain rdf:resource="&renata;FOAF-modified#Lugar"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#temTitulo -->
+
+    <owl:DatatypeProperty rdf:about="&renata;FOAF-modified#temTitulo">
+        <rdfs:domain rdf:resource="http://schema.org/Documento"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://schema.org/Documento -->
+
+    <owl:Class rdf:about="http://schema.org/Documento">
+        <owl:disjointWith rdf:resource="&renata;FOAF-modifiedPerson"/>
+        <owl:disjointWith rdf:resource="&renata;FOAF-modified#Lugar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modifiedOrganization -->
+
+    <owl:Class rdf:about="&renata;FOAF-modifiedOrganization">
+        <rdfs:label>Organization</rdfs:label>
+        <owl:disjointWith rdf:resource="&renata;FOAF-modifiedPerson"/>
+        <owl:disjointWith rdf:resource="&renata;FOAF-modified#Lugar"/>
+        <rdfs:comment>An organization.</rdfs:comment>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modifiedPerson -->
+
+    <owl:Class rdf:about="&renata;FOAF-modifiedPerson">
+        <rdfs:label>Person</rdfs:label>
+        <owl:disjointWith rdf:resource="&renata;FOAF-modified#Lugar"/>
+        <rdfs:comment>A person.</rdfs:comment>
+        <vs:term_status>stable</vs:term_status>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Aluno -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#Aluno">
+        <rdfs:subClassOf rdf:resource="&renata;FOAF-modifiedPerson"/>
+        <owl:disjointWith rdf:resource="&renata;FOAF-modified#Professor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#AlunoGraduacao -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#AlunoGraduacao">
+        <rdfs:subClassOf rdf:resource="&renata;FOAF-modified#Aluno"/>
+        <owl:disjointWith rdf:resource="&renata;FOAF-modified#AlunoPosGraduacao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#AlunoPosGraduacao -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#AlunoPosGraduacao">
+        <rdfs:subClassOf rdf:resource="&renata;FOAF-modified#Aluno"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Artigo -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#Artigo">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Documento"/>
+        <owl:disjointWith rdf:resource="&renata;FOAF-modified#Revista"/>
+        <owl:disjointWith rdf:resource="&renata;FOAF-modified#Tese"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#ArtigoEmConferencia -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#ArtigoEmConferencia">
+        <rdfs:subClassOf rdf:resource="&renata;FOAF-modified#Artigo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#ArtigoEmRevista -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#ArtigoEmRevista">
+        <rdfs:subClassOf rdf:resource="&renata;FOAF-modified#Artigo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Conferencia -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#Conferencia">
+        <owl:disjointWith rdf:resource="&renata;FOAF-modified#Lugar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Continente -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#Continente">
+        <rdfs:subClassOf rdf:resource="&renata;FOAF-modified#Lugar"/>
+        <owl:disjointWith rdf:resource="&renata;FOAF-modified#País"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Departamento -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#Departamento">
+        <rdfs:subClassOf rdf:resource="&renata;FOAF-modifiedOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Dissertacao_de_mestrado -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#Dissertacao_de_mestrado">
+        <rdfs:subClassOf rdf:resource="&renata;FOAF-modified#Tese"/>
+        <owl:disjointWith rdf:resource="&renata;FOAF-modified#Tese_de_doutorado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Instituto -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#Instituto">
+        <rdfs:subClassOf rdf:resource="&renata;FOAF-modifiedOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Lugar -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#Lugar"/>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#País -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#País">
+        <rdfs:subClassOf rdf:resource="&renata;FOAF-modified#Lugar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Professor -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#Professor">
+        <rdfs:subClassOf rdf:resource="&renata;FOAF-modifiedPerson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Revista -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#Revista">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Documento"/>
+        <owl:disjointWith rdf:resource="&renata;FOAF-modified#Tese"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Tese -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#Tese">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Documento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Tese_de_doutorado -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#Tese_de_doutorado">
+        <rdfs:subClassOf rdf:resource="&renata;FOAF-modified#Tese"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Universidade -->
+
+    <owl:Class rdf:about="&renata;FOAF-modified#Universidade">
+        <rdfs:subClassOf rdf:resource="&renata;FOAF-modifiedOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="&owl;Thing">
+        <rdfs:label>Thing</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Arnaldo_Mandel -->
+
+    <owl:NamedIndividual rdf:about="&renata;FOAF-modified#Arnaldo_Mandel">
+        <rdf:type rdf:resource="&renata;FOAF-modified#Professor"/>
+        <renata:FOAF-modifiedfamilyName>Mandel</renata:FOAF-modifiedfamilyName>
+        <nomeCitacao>MANDEL, Arnaldo</nomeCitacao>
+        <nomeCitacao>Mandel, Arnaldo</nomeCitacao>
+        <renata:FOAF-modifiedname>Arnaldo Mandel</renata:FOAF-modifiedname>
+        <nomeCitacao>MANDEL, A.</nomeCitacao>
+        <renata:FOAF-modifiedfirstName>Arnaldo</renata:FOAF-modifiedfirstName>
+        <afiliado rdf:resource="&renata;FOAF-modified#Departamento_de_Ciência_Da_Computação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#ArtigoXX -->
+
+    <owl:NamedIndividual rdf:about="&renata;FOAF-modified#ArtigoXX">
+        <rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+        <anoPublicacao>1997</anoPublicacao>
+        <temAutor rdf:resource="&renata;FOAF-modified#Arnaldo_Mandel"/>
+        <publicadoEm rdf:resource="&renata;FOAF-modified#RevistaXXX"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Departamento_de_Ciência_Da_Computação -->
+
+    <owl:NamedIndividual rdf:about="&renata;FOAF-modified#Departamento_de_Ciência_Da_Computação">
+        <rdf:type rdf:resource="&renata;FOAF-modified#Departamento"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Departamento_de_Estatística -->
+
+    <owl:NamedIndividual rdf:about="&renata;FOAF-modified#Departamento_de_Estatística">
+        <rdf:type rdf:resource="&renata;FOAF-modified#Departamento"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Departamento_de_Matemática_Aplicada -->
+
+    <owl:NamedIndividual rdf:about="&renata;FOAF-modified#Departamento_de_Matemática_Aplicada">
+        <rdf:type rdf:resource="&renata;FOAF-modified#Departamento"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Instituto_de_Matemática_e_Estatística -->
+
+    <owl:NamedIndividual rdf:about="&renata;FOAF-modified#Instituto_de_Matemática_e_Estatística">
+        <rdf:type rdf:resource="&renata;FOAF-modified#Instituto"/>
+        <compostoPor rdf:resource="&renata;FOAF-modified#Departamento_de_Ciência_Da_Computação"/>
+        <compostoPor rdf:resource="&renata;FOAF-modified#Departamento_de_Estatística"/>
+        <compostoPor rdf:resource="&renata;FOAF-modified#Departamento_de_Matemática_Aplicada"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#RevistaXXX -->
+
+    <owl:NamedIndividual rdf:about="&renata;FOAF-modified#RevistaXXX">
+        <rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+        <anoPublicacao>1997</anoPublicacao>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ime.usp.br/~renata/FOAF-modified#Universidade_de_São_Paulo -->
+
+    <owl:NamedIndividual rdf:about="&renata;FOAF-modified#Universidade_de_São_Paulo">
+        <rdf:type rdf:resource="&renata;FOAF-modified#Universidade"/>
+        <compostoPor rdf:resource="&renata;FOAF-modified#Instituto_de_Matemática_e_Estatística"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+        <rdfs:label>Concept</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="&renata;FOAF-modified#Departamento"/>
+            <rdf:Description rdf:about="&renata;FOAF-modified#Instituto"/>
+            <rdf:Description rdf:about="&renata;FOAF-modified#Universidade"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
 
 
 

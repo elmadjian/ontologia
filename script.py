@@ -39,7 +39,7 @@ def runPattern(line):
     #padrões para o arquivo .ris de currículo Lattes
     "(NOME)\s*-\s*(.+)",    #nome completo
     "(CITA)\s*-\s*(.+)",    #nome para citação (muitas ocorrências!)
-    "(FO)\d+d\s*-\s*(.+)"    #local onde estudou
+    "(FO)\d+d\s*-\s*(.+)"   #local onde estudou
     ]
 
     #dicionário para busca
@@ -96,6 +96,12 @@ class Reader:
         return self.filename
 
 
+#||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+#classe MAKER:
+#>>> classe responsável por construir uma saída OWL
+#==================================================================
+class Maker:
+    
 
 #=========================#
 if __name__ == "__main__":
