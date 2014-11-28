@@ -80,25 +80,37 @@
         <Class IRI="#Aluno"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#AlunoGraduacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AlunoPosGraduacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artigo"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ArtigoEmConferencia"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ArtigoEmRevista"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Departamento"/>
+        <Class IRI="#Conferencia"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DissertacaoDeMestrado"/>
+        <Class IRI="#Departamento"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Instituto"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Lugar"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Professor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TeseDeDoutorado"/>
+        <Class IRI="#Revista"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Universidade"/>
@@ -119,6 +131,9 @@
         <ObjectProperty IRI="#compostoPor"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#estudouEm"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#filiado"/>
     </Declaration>
     <Declaration>
@@ -128,13 +143,19 @@
         <ObjectProperty IRI="#orientado"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#parteDe"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="familyName"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="firstName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anoPublicacao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nomeLugar"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Arnaldo_Mandel"/>
@@ -186,6 +207,13 @@
         <Class IRI="http://schema.org/ImageObject"/>
         <Class IRI="Image"/>
     </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Professor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#filiado"/>
+            <Class IRI="#Departamento"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="Image"/>
         <Class IRI="Document"/>
@@ -227,31 +255,43 @@
         <Class IRI="Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ArtigoEmConferencia"/>
+        <Class IRI="#AlunoGraduacao"/>
+        <Class IRI="#Aluno"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AlunoPosGraduacao"/>
+        <Class IRI="#Aluno"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artigo"/>
         <Class IRI="http://schema.org/CreativeWork"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ArtigoEmConferencia"/>
+        <Class IRI="#Artigo"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#ArtigoEmRevista"/>
-        <Class IRI="http://schema.org/CreativeWork"/>
+        <Class IRI="#Artigo"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Departamento"/>
         <Class IRI="Organization"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#DissertacaoDeMestrado"/>
-        <Class IRI="http://schema.org/CreativeWork"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Instituto"/>
         <Class IRI="Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lugar"/>
+        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Professor"/>
         <Class IRI="Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TeseDeDoutorado"/>
+        <Class IRI="#Revista"/>
         <Class IRI="http://schema.org/CreativeWork"/>
     </SubClassOf>
     <SubClassOf>
@@ -281,6 +321,10 @@
     <DisjointClasses>
         <Class IRI="#Aluno"/>
         <Class IRI="#Professor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AlunoGraduacao"/>
+        <Class IRI="#AlunoPosGraduacao"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Departamento"/>
@@ -311,6 +355,31 @@
         <Class IRI="#Universidade"/>
         <NamedIndividual IRI="#Universidade_de_São_Paulo"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#filiado"/>
+        <NamedIndividual IRI="#Arnaldo_Mandel"/>
+        <NamedIndividual IRI="#Departamento_de_Ciência_Da_Computação"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostoPor"/>
+        <NamedIndividual IRI="#Instituto_de_Matemática_e_Estatística"/>
+        <NamedIndividual IRI="#Departamento_de_Ciência_Da_Computação"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostoPor"/>
+        <NamedIndividual IRI="#Instituto_de_Matemática_e_Estatística"/>
+        <NamedIndividual IRI="#Departamento_de_Matemática_Aplicada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostoPor"/>
+        <NamedIndividual IRI="#Instituto_de_Matemática_e_Estatística"/>
+        <NamedIndividual IRI="#Departamento_de_Estatística"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compostoPor"/>
+        <NamedIndividual IRI="#Universidade_de_São_Paulo"/>
+        <NamedIndividual IRI="#Instituto_de_Matemática_e_Estatística"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="familyName"/>
         <NamedIndividual IRI="#Arnaldo_Mandel"/>
@@ -322,7 +391,7 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Arnaldo</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#compostoPor"/>
+        <ObjectProperty IRI="publications"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
@@ -330,19 +399,12 @@
         <ObjectProperty IRI="maker"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#compostoPor"/>
-        <ObjectProperty IRI="#parteDe"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
         <ObjectProperty IRI="#orienta"/>
         <ObjectProperty IRI="#orientado"/>
     </InverseObjectProperties>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#parteDe"/>
-    </FunctionalObjectProperty>
-    <InverseFunctionalObjectProperty>
+    <TransitiveObjectProperty>
         <ObjectProperty IRI="#compostoPor"/>
-    </InverseFunctionalObjectProperty>
+    </TransitiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="made"/>
         <Class IRI="Agent"/>
@@ -357,23 +419,19 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#compostoPor"/>
-        <Class IRI="#Instituto"/>
+        <Class IRI="Organization"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#compostoPor"/>
-        <Class IRI="#Universidade"/>
+        <ObjectProperty IRI="#estudouEm"/>
+        <Class IRI="Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#filiado"/>
+        <Class IRI="Person"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#orienta"/>
         <Class IRI="#Professor"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#parteDe"/>
-        <Class IRI="#Departamento"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#parteDe"/>
-        <Class IRI="#Instituto"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="made"/>
@@ -389,23 +447,19 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#compostoPor"/>
-        <Class IRI="#Departamento"/>
+        <Class IRI="Organization"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#compostoPor"/>
-        <Class IRI="#Instituto"/>
+        <ObjectProperty IRI="#estudouEm"/>
+        <Class IRI="#Lugar"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#filiado"/>
+        <Class IRI="Organization"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#orienta"/>
         <Class IRI="#Aluno"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#parteDe"/>
-        <Class IRI="#Instituto"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#parteDe"/>
-        <Class IRI="#Universidade"/>
     </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="familyName"/>
@@ -414,6 +468,18 @@
     <DataPropertyDomain>
         <DataProperty IRI="firstName"/>
         <Class IRI="Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anoPublicacao"/>
+        <Class IRI="http://schema.org/CreativeWork"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nomeLugar"/>
+        <Class IRI="#Lugar"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="familyName"/>
@@ -421,6 +487,18 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="firstName"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#anoPublicacao"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nomeLugar"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <AnnotationAssertion>
