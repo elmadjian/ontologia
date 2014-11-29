@@ -1,0 +1,346 @@
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Language_Rhythm_Model_Selection_by_Weighted_Kappa">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>GIAMPAOLI, V.</autor>
+	<autor>MANDEL, A.</autor>
+	<titulo>Language Rhythm Model Selection by Weighted Kappa</titulo>
+	<anoPublicacao>2010</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#Journal_of_Data_Science_(Print)"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Journal_of_Data_Science_(Print)">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>Journal of Data Science (Print)</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Secondary_stress_in_two_varieties_of_Portuguese_and_the_Sotaq_optimality_based_computer_program">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>SANDALO, F.</autor>
+	<autor>ABAURRE, M. B. M.</autor>
+	<autor>MANDEL, A.</autor>
+	<autor>GALVES, C. M. C.</autor>
+	<titulo>Secondary stress in two varieties of Portuguese and the Sotaq optimality based computer program</titulo>
+	<anoPublicacao>2006</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#Probus_(Dordrecht)"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Probus_(Dordrecht)">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>Probus (Dordrecht)</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Free_symmetric_and_unitary_pairs_in_division_rings_with_involution">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>MANDEL, A.</autor>
+	<autor>Gonçalves, J. Z.</autor>
+	<autor>FERREIRA, V. O.</autor>
+	<titulo>Free symmetric and unitary pairs in division rings with involution</titulo>
+	<anoPublicacao>2005</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#International_Journal_of_Algebra_and_Computation"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#International_Journal_of_Algebra_and_Computation">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>International Journal of Algebra and Computation</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#From_Monomials_to_Words_to_Graphs.._Journal_of_Combinatorial_Theory">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>FERNANDES, C. G.</autor>
+	<autor>GREEN, E. L.</autor>
+	<autor>MANDEL, A.</autor>
+	<titulo>From Monomials to Words to Graphs.. Journal of Combinatorial Theory</titulo>
+	<anoPublicacao>2004</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#Series_A"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Series_A">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>Series A</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Free_Subgroups_in_the_Group_of_Units_of_a_Twisted_Group_Algebra">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>MANDEL, A.</autor>
+	<autor>Gonçalves, J. Z.</autor>
+	<titulo>Free Subgroups in the Group of Units of a Twisted Group Algebra</titulo>
+	<anoPublicacao>2001</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#Communications_in_Algebra"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Communications_in_Algebra">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>Communications in Algebra</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Free_products_of_units_in_algebras_II:_crossed_products.">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>MANDEL, A.</autor>
+	<autor>Gonçalves, J. Z.</autor>
+	<autor>SHIRVANI, M.</autor>
+	<titulo>Free products of units in algebras II: crossed products.</titulo>
+	<anoPublicacao>2000</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#Journal_of_Algebra"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Journal_of_Algebra">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>Journal of Algebra</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Free_products_of_units_in_algebras_I._Quaternion_algebras.">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>Gonçalves, J. Z.</autor>
+	<autor>MANDEL, A.</autor>
+	<autor>SHIRVANI, M.</autor>
+	<titulo>Free products of units in algebras I. Quaternion algebras.</titulo>
+	<anoPublicacao>1999</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#Journal_of_Algebra"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Journal_of_Algebra">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>Journal of Algebra</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Bibliotecas_Virtuais">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>MANDEL, A.</autor>
+	<titulo>Bibliotecas Virtuais</titulo>
+	<anoPublicacao>1997</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#REVISTA_USP"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#REVISTA_USP">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>REVISTA USP</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Informação:_Computação_e_Comunicação">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>SIMON, I.</autor>
+	<autor>MANDEL, A.</autor>
+	<autor>DELYRA, J. L.</autor>
+	<titulo>Informação: Computação e Comunicação</titulo>
+	<anoPublicacao>1997</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#REVISTA_USP"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#REVISTA_USP">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>REVISTA USP</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#A_Commutativity_Theorem_For_Division_Rings_And_An_Extension_Of_A_Result_Of_Faith">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>Gonçalves, J. Z.</autor>
+	<autor>MANDEL, A.</autor>
+	<titulo>A Commutativity Theorem For Division Rings And An Extension Of A Result Of Faith</titulo>
+	<anoPublicacao>1996</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#RESULTS_IN_MATHEMATICS"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#RESULTS_IN_MATHEMATICS">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>RESULTS IN MATHEMATICS</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Rings_With_Algebraic_N-Engel_Elements">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>MANDEL, A.</autor>
+	<autor>GIAMBRUNO, A.</autor>
+	<autor>Gonçalves, J. Z.</autor>
+	<titulo>Rings With Algebraic N-Engel Elements</titulo>
+	<anoPublicacao>1994</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#Communications_in_Algebra"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Communications_in_Algebra">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>Communications in Algebra</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Semigroup_Identities_On_Units_Of_Group_Algebras">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>MANDEL, A.</autor>
+	<autor>Gonçalves, J. Z.</autor>
+	<titulo>Semigroup Identities On Units Of Group Algebras</titulo>
+	<anoPublicacao>1991</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#Archiv_der_Mathematik"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Archiv_der_Mathematik">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>Archiv der Mathematik</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Qualitative_Methods_To_Solve_Qualitative_Problems_In_Power_System_State_Estimation">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>COSTA, A. S.</autor>
+	<autor>MANDEL, A.</autor>
+	<autor>PIAZZA, T. S.</autor>
+	<titulo>Qualitative Methods To Solve Qualitative Problems In Power System State Estimation</titulo>
+	<anoPublicacao>1990</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#IEEE_Transactions_on_Power_Systems"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#IEEE_Transactions_on_Power_Systems">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>IEEE Transactions on Power Systems</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Construction_Of_Open_Sets_Of_Free_K-Tuples_Of_Matrices.">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>Gonçalves, J. Z.</autor>
+	<autor>MANDEL, A.</autor>
+	<titulo>Construction Of Open Sets Of Free K-Tuples Of Matrices.</titulo>
+	<anoPublicacao>1987</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#PROCEEDINGS_OF_THE_EDINHBURGH_MATHEMATICAL_SOCIETY."/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#PROCEEDINGS_OF_THE_EDINHBURGH_MATHEMATICAL_SOCIETY.">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>PROCEEDINGS OF THE EDINHBURGH MATHEMATICAL SOCIETY.</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Are_There_Free_Groups_In_Division_Rings?">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>Gonçalves, J. Z.</autor>
+	<autor>MANDEL, A.</autor>
+	<titulo>Are There Free Groups In Division Rings?</titulo>
+	<anoPublicacao>1986</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#Israel_Journal_of_Mathematics"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Israel_Journal_of_Mathematics">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>Israel Journal of Mathematics</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#A_Abordagem_Topologica_Para_Observabilidade_de_Sistemas_de_Potencia:_Teoria_e_Um_Algoritmo.._REV">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>MANDEL, A.</autor>
+	<autor>COSTA, A. S.</autor>
+	<titulo>A Abordagem Topologica Para Observabilidade de Sistemas de Potencia: Teoria e Um Algoritmo.. REV</titulo>
+	<anoPublicacao>1986</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#SBA:_CONTROLE_E_AUTOMACAO"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#SBA:_CONTROLE_E_AUTOMACAO">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>SBA: CONTROLE E AUTOMACAO</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Graph-Encoded_3-Manifolds.">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>LINS, S. L. S.</autor>
+	<autor>MANDEL, A.</autor>
+	<titulo>Graph-Encoded 3-Manifolds.</titulo>
+	<anoPublicacao>1985</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#Discrete_Mathematics"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Discrete_Mathematics">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>Discrete Mathematics</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Free_K-Tuples_In_Linear_Groups.">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>Gonçalves, J. Z.</autor>
+	<autor>MANDEL, A.</autor>
+	<titulo>Free K-Tuples In Linear Groups.</titulo>
+	<anoPublicacao>1983</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#BULLETIN_OF_THE_AUSTRALIAN_MATHEMATICAL_SOCIETY."/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#BULLETIN_OF_THE_AUSTRALIAN_MATHEMATICAL_SOCIETY.">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>BULLETIN OF THE AUSTRALIAN MATHEMATICAL SOCIETY.</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Euler's_Relation,_Mobius_Functions_And_Matroid_Identities.">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>CORDOVIL, R.</autor>
+	<autor>MANDEL, A.</autor>
+	<autor>VERGNAS, M. L.</autor>
+	<titulo>Euler's Relation, Mobius Functions And Matroid Identities.</titulo>
+	<anoPublicacao>1982</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#Geometriae_Dedicata"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Geometriae_Dedicata">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>Geometriae Dedicata</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Power_Systems_Topological_Observability_Using_A_Graph_Theoretic_Approach.">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>QUINTANA, V. H.</autor>
+	<autor>COSTA, A. S.</autor>
+	<autor>MANDEL, A.</autor>
+	<titulo>Power Systems Topological Observability Using A Graph Theoretic Approach.</titulo>
+	<anoPublicacao>1981</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#IEEE_PES_SUMMER_MEETING_-_PAPER_81_SM_452-2"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#IEEE_PES_SUMMER_MEETING_-_PAPER_81_SM_452-2">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>IEEE PES SUMMER MEETING - PAPER 81 SM 452-2</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Solution_To_Problem_In_Number_4,_Page_250.">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>EDMONDS, J.</autor>
+	<autor>LOVASZ, L.</autor>
+	<autor>MANDEL, A.</autor>
+	<titulo>Solution To Problem In Number 4, Page 250.</titulo>
+	<anoPublicacao>1980</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#MATHEMATICAL_INTELLIGENCER."/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#MATHEMATICAL_INTELLIGENCER.">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>MATHEMATICAL INTELLIGENCER.</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#On_Finite_Semigroups_Of_Matrices.">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmRevista"/>
+	<autor>MANDEL, A.</autor>
+	<autor>SIMON, I.</autor>
+	<titulo>On Finite Semigroups Of Matrices.</titulo>
+	<anoPublicacao>1977</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#Theoretical_Computer_Science"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Theoretical_Computer_Science">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Revista"/>
+	<titulo>Theoretical Computer Science</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Soda:_A_Lease-Based_Consistent_Distributed_File_System">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmConferencia"/>
+	<autor>KON, F.</autor>
+	<autor>MANDEL, A.</autor>
+	<titulo>Soda: A Lease-Based Consistent Distributed File System</titulo>
+	<anoPublicacao>1995</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#XIII_SIMPÓSIO_BRASILEIRO_DE_REDES_DE_COMPUTADORES"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#XIII_SIMPÓSIO_BRASILEIRO_DE_REDES_DE_COMPUTADORES">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Conferencia"/>
+	<titulo>XIII SIMPÓSIO BRASILEIRO DE REDES DE COMPUTADORES</titulo>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#Alguns_Problemas_de_Enumeracao_Em_Geometria">
+	<rdf:type rdf:resource="&renata;FOAF-modified#ArtigoEmConferencia"/>
+	<autor>MANDEL, A.</autor>
+	<titulo>Alguns Problemas de Enumeracao Em Geometria</titulo>
+	<anoPublicacao>1983</anoPublicacao>
+	<temAutor rdf:resource="&renata;FOAF-modified#teste-01-publicacoes"/>
+	<publicadoEm rdf:resource="&renata;FOAF-modified#ATAS_DO_XIV_COLOQUIO_BRASILEIRO_DE_MATEMATICA"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="&renata;FOAF-modified#ATAS_DO_XIV_COLOQUIO_BRASILEIRO_DE_MATEMATICA">
+	<rdf:type rdf:resource="&renata;FOAF-modified#Conferencia"/>
+	<titulo>ATAS DO XIV COLOQUIO BRASILEIRO DE MATEMATICA</titulo>
+</owl:NamedIndividual>

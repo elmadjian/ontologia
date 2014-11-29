@@ -1,81 +1,273 @@
 
 
 TY  - JOUR
-AU  - Ragazzo, C.
-TI  - Scalar Autonomous Second Order Ordinary Differential Equations
-JO  - Qualitative Theory of Dynamical Systems
-VL  - 11
+AU  - GIAMPAOLI, V. ; MANDEL, A.
+TI  - Language Rhythm Model Selection by Weighted Kappa
+JO  - Journal of Data Science (Print)
+VL  - 8
 IS  - 
-SP  - 277
-EP  - 415
-PY  - 2012
-L2  - http://dx.doi.org/10.1007/s12346-011-0063-8
+SP  - 91
+EP  - 99V
+PY  - 2010
+L2  - 
 ER  - 
 
 TY  - JOUR
-AU  - GROTTA RAGAZZO, C. ; Malta, Coraci Pereira ; PAKDAMAN, K.
-TI  - Metastable Periodic Patterns in Singularly Perturbed Delayed Equations
-JO  - Journal of Dynamics and Differential Equations
+AU  - SANDALO, F. ; ABAURRE, M. B. M. ; MANDEL, A. ; GALVES, C. M. C.
+TI  - Secondary stress in two varieties of Portuguese and the Sotaq optimality based computer program
+JO  - Probus (Dordrecht), New York
+VL  - 18
+IS  - 1
+SP  - 97
+EP  - 125
+PY  - 2006
+L2  - 
+ER  - 
+
+TY  - JOUR
+AU  - MANDEL, A. ; Gonçalves, J. Z. ; FERREIRA, V. O.
+TI  - Free symmetric and unitary pairs in division rings with involution
+JO  - International Journal of Algebra and Computation, Estados Unidos
+VL  - 15
+IS  - 1
+SP  - 15
+EP  - 36
+PY  - 2005
+L2  - 
+ER  - 
+
+TY  - JOUR
+AU  - FERNANDES, C. G. ; GREEN, E. L. ; MANDEL, A.
+TI  - From Monomials to Words to Graphs.. Journal of Combinatorial Theory
+JO  - Series A
+VL  - 105
+IS  - 2
+SP  - 185
+EP  - 206
+PY  - 2004
+L2  - 
+ER  - 
+
+TY  - JOUR
+AU  - MANDEL, A. ; Gonçalves, J. Z.
+TI  - Free Subgroups in the Group of Units of a Twisted Group Algebra
+JO  - Communications in Algebra
+VL  - 29
+IS  - 5
+SP  - 2231
+EP  - 2238
+PY  - 2001
+L2  - 
+ER  - 
+
+TY  - JOUR
+AU  - MANDEL, A. ; Gonçalves, J. Z. ; SHIRVANI, M.
+TI  - Free products of units in algebras II: crossed products.
+JO  - Journal of Algebra, Estados Unidos
+VL  - 233
+IS  - 2
+SP  - 567
+EP  - 593
+PY  - 2000
+L2  - 
+ER  - 
+
+TY  - JOUR
+AU  - Gonçalves, J. Z. ; MANDEL, A. ; SHIRVANI, M.
+TI  - Free products of units in algebras I. Quaternion algebras.
+JO  - Journal of Algebra, EUA
+VL  - 214
+IS  - 1
+SP  - 301
+EP  - 316
+PY  - 1999
+L2  - 
+ER  - 
+
+TY  - JOUR
+AU  - MANDEL, A.
+TI  - Bibliotecas Virtuais
+JO  - REVISTA USP, SÃO PAULO
+VL  - 35
+IS  - 
+SP  - 62
+EP  - 65
+PY  - 1997
+L2  - 
+ER  - 
+
+TY  - JOUR
+AU  - SIMON, I. ; MANDEL, A. ; DELYRA, J. L.
+TI  - Informação: Computação e Comunicação
+JO  - REVISTA USP, SÃO PAULO
+VL  - 35
+IS  - 
+SP  - 10
+EP  - 45
+PY  - 1997
+L2  - 
+ER  - 
+
+TY  - JOUR
+AU  - Gonçalves, J. Z. ; MANDEL, A.
+TI  - A Commutativity Theorem For Division Rings And An Extension Of A Result Of Faith
+JO  - RESULTS IN MATHEMATICS
+VL  - 30
+IS  - 
+SP  - 302
+EP  - 309
+PY  - 1996
+L2  - 
+ER  - 
+
+TY  - JOUR
+AU  - MANDEL, A. ; GIAMBRUNO, A. ; Gonçalves, J. Z.
+TI  - Rings With Algebraic N-Engel Elements
+JO  - Communications in Algebra
 VL  - 22
 IS  - 
-SP  - 203
-EP  - 252
-PY  - 2010
-L2  - http://dx.doi.org/10.1007/s10884-010-9158-1
+SP  - 1685
+EP  - 1703
+PY  - 1994
+L2  - 
 ER  - 
 
 TY  - JOUR
-AU  - GROTTA RAGAZZO, C. ; E. Tabak
-TI  - On the force and torque on systems of rigid bodies: A remark on an integral formula due to Howe
-JO  - Physics of Fluids
-VL  - 19
+AU  - MANDEL, A. ; Gonçalves, J. Z.
+TI  - Semigroup Identities On Units Of Group Algebras
+JO  - Archiv der Mathematik
+VL  - 57
 IS  - 
-SP  - 057108
-EP  - 0
-PY  - 2007
-L2  - http://dx.doi.org/10.1063/1.2730481
+SP  - 539
+EP  - 545
+PY  - 1991
+L2  - 
 ER  - 
 
 TY  - JOUR
-AU  - GROTTA RAGAZZO, C. ; KULESZA, M. ; P. A. S. Salomao
-TI  - Equatorial Dynamics of Charged Particles in Planetary Magnetospheres
-JO  - Physica D
-VL  - 225
+AU  - COSTA, A. S. ; MANDEL, A. ; PIAZZA, T. S.
+TI  - Qualitative Methods To Solve Qualitative Problems In Power System State Estimation
+JO  - IEEE Transactions on Power Systems, ESTADOS UNIDOS
+VL  - 5
 IS  - 
-SP  - 169
-EP  - 183
-PY  - 2007
-L2  - http://dx.doi.org/10.1016/j.physd.2006.10.009
+SP  - 941
+EP  - 949
+PY  - 1990
+L2  - 
 ER  - 
 
 TY  - JOUR
-AU  - GROTTA RAGAZZO, C. ; P. A. S. Salomao
-TI  - Global surfaces of section in non-regular convex energy levels of Hamiltonian systems
-JO  - Mathematische Zeitschrift
-VL  - 255
-IS  - 
-SP  - 323
-EP  - 334
-PY  - 2007
-L2  - http://dx.doi.org/10.1007/s00209-006-0026-y
+AU  - Gonçalves, J. Z. ; MANDEL, A.
+TI  - Construction Of Open Sets Of Free K-Tuples Of Matrices.
+JO  - PROCEEDINGS OF THE EDINHBURGH MATHEMATICAL SOCIETY.
+VL  - 30
+IS  - 1
+SP  - 121
+EP  - 131
+PY  - 1987
+L2  - 
 ER  - 
 
 TY  - JOUR
-AU  - GROTTA RAGAZZO, C. ; P. A. S. Salomao
-TI  - The Conley-Zehnder index and the saddle-center equilibrium
-JO  - Journal of Differential Equations (Print)
-VL  - 220
+AU  - Gonçalves, J. Z. ; MANDEL, A.
+TI  - Are There Free Groups In Division Rings?
+JO  - Israel Journal of Mathematics
+VL  - 53
+IS  - 1
+SP  - 69
+EP  - 80
+PY  - 1986
+L2  - 
+ER  - 
+
+TY  - JOUR
+AU  - MANDEL, A. ; COSTA, A. S.
+TI  - A Abordagem Topologica Para Observabilidade de Sistemas de Potencia: Teoria e Um Algoritmo.. REV
+JO  - SBA: CONTROLE E AUTOMACAO
+VL  - 1
 IS  - 
-SP  - 259
-EP  - 278
-PY  - 2006
-L2  - http://dx.doi.org/10.1016/j.jde.2005.03.015
+SP  - 59
+EP  - 71
+PY  - 1986
+L2  - 
+ER  - 
+
+TY  - JOUR
+AU  - LINS, S. L. S. ; MANDEL, A.
+TI  - Graph-Encoded 3-Manifolds.
+JO  - Discrete Mathematics
+VL  - 57
+IS  - 
+SP  - 261
+EP  - 284
+PY  - 1985
+L2  - 
+ER  - 
+
+TY  - JOUR
+AU  - Gonçalves, J. Z. ; MANDEL, A.
+TI  - Free K-Tuples In Linear Groups.
+JO  - BULLETIN OF THE AUSTRALIAN MATHEMATICAL SOCIETY.
+VL  - 28
+IS  - 2
+SP  - 152
+EP  - 157
+PY  - 1983
+L2  - 
+ER  - 
+
+TY  - JOUR
+AU  - CORDOVIL, R. ; MANDEL, A. ; VERGNAS, M. L.
+TI  - Euler's Relation, Mobius Functions And Matroid Identities.
+JO  - Geometriae Dedicata
+VL  - 12
+IS  - 
+SP  - 147
+EP  - 162
+PY  - 1982
+L2  - 
+ER  - 
+
+TY  - JOUR
+AU  - QUINTANA, V. H. ; COSTA, A. S. ; MANDEL, A.
+TI  - Power Systems Topological Observability Using A Graph Theoretic Approach.
+JO  - IEEE PES SUMMER MEETING - PAPER 81 SM 452-2
+VL  - JULY
+IS  - 
+SP  - 617
+EP  - 626
+PY  - 1981
+L2  - 
+ER  - 
+
+TY  - JOUR
+AU  - EDMONDS, J. ; LOVASZ, L. ; MANDEL, A.
+TI  - Solution To Problem In Number 4, Page 250.
+JO  - MATHEMATICAL INTELLIGENCER.
+VL  - 2
+IS  - 2
+SP  - 106
+EP  - 107
+PY  - 1980
+L2  - 
+ER  - 
+
+TY  - JOUR
+AU  - MANDEL, A. ; SIMON, I.
+TI  - On Finite Semigroups Of Matrices.
+JO  - Theoretical Computer Science
+VL  - 5
+IS  - 
+SP  - 101
+EP  - 111
+PY  - 1977
+L2  - 
 ER  - 
 
 TY  - BOOK
-AU  - GROTTA RAGAZZO, C. ; Addas Zanata ; CARNEIRO, M. J. D.
-TI  - Introducao a Dinamica de Aplicacoes do tipo Twist
-IS  - 1
+AU  - MANDEL, A.
+TI  - Desigualdades Lineares: Uma Visao Combinatoria.. IMPA
+IS  - 
 PY  - 0
 VL  - 
 SP  - 
@@ -83,12 +275,23 @@ EP  -
 ER  - 
 
 TY  - CONF
-AU  - GROTTA RAGAZZO, C. ; J. R. de Souza Junior ; H. Morishita
-T1  - Hydrodynamic interaction of two ships in tandem under current
-TI  - The Sixteenth (2006) International Offshore and Polar Engineering Conference (ISOPE-2006)
-VL  - 1
-SP  - 150
-EP  - 158
-PY  - 2006
+AU  - KON, F. ; MANDEL, A.
+T1  - Soda: A Lease-Based Consistent Distributed File System
+TI  - XIII SIMPÓSIO BRASILEIRO DE REDES DE COMPUTADORES
+VL  - 
+SP  - 287
+EP  - 300
+PY  - 1995
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - MANDEL, A.
+T1  - Alguns Problemas de Enumeracao Em Geometria
+TI  - ATAS DO XIV COLOQUIO BRASILEIRO DE MATEMATICA
+VL  - 
+SP  - 0
+EP  - 0
+PY  - 1983
 L2  - 
 ER  - 
