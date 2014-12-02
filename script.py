@@ -218,7 +218,7 @@ class Interpreter:
         individuo += "\t<firstName rdf:datatype=\"&xsd;string\">"+re.sub("\s.*$", "", self.hashmap['NOME'])+"</firstName>\n"
         individuo += "\t<familyName rdf:datatype=\"&xsd;string\">"+re.sub("^.*? ", "", self.hashmap['NOME'])+"</familyName>\n"
         individuo += "\t<name rdf:datatype=\"&xsd;string\">"+self.hashmap['NOME']+"</name>\n"
-        individuo += "\t<temOrientador rdf:resource=\""+self.ontoName + self.autor+"\"\>\n"
+        individuo += "\t<temOrientador rdf:resource=\""+self.ontoName + self.autor+"\"/>\n"
         individuo += "</owl:NamedIndividual>\n\n"
         return individuo
 
