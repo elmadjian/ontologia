@@ -48,8 +48,7 @@ def main(argv):
 #extrai o nome do Professor no filename
 #=================================================================
 def extractProf(filename):
-    pattern = "\/?(\w+)\.ris"
-    #print("filename: " + filename)
+    pattern = "\/?(\w+).ris"
     match = re.search(pattern, filename)
     if match:
         return match.group(1)
@@ -59,7 +58,7 @@ def extractProf(filename):
 #define qual o tipo de arquivo de entrada
 #=================================================================
 def defineFileType():
-    fileType = input("Qual o tipo de arquivo .ris? [prof/alun/publ]\n")
+    fileType = input("Qual o tipo de arquivo .ris? [prof|alun|publ]\n")
     if fileType == 'prof' or fileType == 'alun' or fileType == 'publ':
         return fileType
     else:
@@ -184,11 +183,13 @@ class Interpreter:
         self.ontoName = "&renata;FOAF-modified#"
         self.autor    = autor
 
-    #>>> coloca 'underline' em strings com espaços
-    #putUnderline(string) -> string
+    #>>> elimina problemas (white spaces, "", &) em nomes de indivíduos
+    #sanitize(string) -> string
     #================================================================
-    def putUnderline(self, text):
+    def sanitize(self, text):
         modified_text = re.sub("\s+", "_", text)
+        modified_text = re.sub("\"", "", modified_text)
+        modified_text = re.sub("&", "And", modified_text)
         return modified_text
 
     #>>> cria um indivíduo
@@ -210,7 +211,7 @@ class Interpreter:
     #_createAluno() -> string
     #=================================================================
     def _createAluno(self):
-        nome = self.putUnderline(self.hashmap['NOME'])
+        nome = self.sanitize(self.hashmap['NOME'])
         individuo = "<owl:NamedIndividual rdf:about=\"{0}{1}\">\n".format(self.ontoName, nome)
         individuo += "\t<rdf:type rdf:resource=\"{0}Aluno\"/>\n".format(self.ontoName)
         for citacao in self.hashmap['CITA']:
@@ -226,7 +227,7 @@ class Interpreter:
     #_createProfessor() -> string
     #=================================================================
     def _createProfessor(self):
-        nome = self.putUnderline(self.hashmap['NOME'])
+        nome = self.sanitize(self.hashmap['NOME'])
         self.autor = nome
         individuo = "<owl:NamedIndividual rdf:about=\"{0}{1}\">\n".format(self.ontoName, nome)
         individuo += "\t<rdf:type rdf:resource=\"{0}Professor\"/>\n".format(self.ontoName)
@@ -244,8 +245,8 @@ class Interpreter:
     #=================================================================
     def _createJournal(self):
         #criando o artigo em revista
-        artigo  = self.putUnderline(self.hashmap['TI'])
-        revista = self.putUnderline(self.hashmap['JO'])
+        artigo  = self.sanitize(self.hashmap['TI'])
+        revista = self.sanitize(self.hashmap['JO'])
         individuo = "<owl:NamedIndividual rdf:about=\""+self.ontoName + artigo+"\">\n"
         individuo += "\t<rdf:type rdf:resource=\""+self.ontoName+"ArtigoEmRevista\"/>\n"
         for autor in self.hashmap['AU']:
@@ -268,8 +269,8 @@ class Interpreter:
     #=================================================================
     def _createConferece(self):
         #criando o artigo em conferência
-        artigo = self.putUnderline(self.hashmap['T1'])
-        conf   = self.putUnderline(self.hashmap['TI'])
+        artigo = self.sanitize(self.hashmap['T1'])
+        conf   = self.sanitize(self.hashmap['TI'])
         individuo = "<owl:NamedIndividual rdf:about=\""+self.ontoName + artigo+"\">\n"
         individuo += "\t<rdf:type rdf:resource=\""+self.ontoName+"ArtigoEmConferencia\"/>\n"
         for autor in self.hashmap['AU']:
