@@ -1,0 +1,649 @@
+
+
+TY  - JOUR
+AU  - LOPES, FABRÍCIO M. ; RAY, SHUBHRA SANKAR ; HASHIMOTO, RONALDO F. ; CESAR, ROBERTO M.
+TI  - Entropic Biological Score: a cell cycle investigation for GRNs inference
+JO  - Gene (Amsterdam)
+VL  - 541
+IS  - 
+SP  - 129
+EP  - 137
+PY  - 2014
+L2  - http://dx.doi.org/10.1016/j.gene.2014.03.010
+L3  - 03781119
+ER  - 
+
+TY  - JOUR
+AU  - HIGA, C. H. A. ; ANDRADE, T. P. ; HASHIMOTO, R. F.
+TI  - Growing Seed Genes from Time Series Data and Thresholded Boolean Networks with Perturbation
+JO  - IEEE/ACM Transactions on Computational Biology and Bioinformatics (Print)
+VL  - 10
+IS  - 
+SP  - 37
+EP  - 49
+PY  - 2013
+L2  - http://dx.doi.org/10.1109/tcbb.2012.169
+L3  - 15455963
+ER  - 
+
+TY  - JOUR
+AU  - MARTINS, D. C. ; OLIVEIRA, E. A. ; BRAGA-NETO, U. ; HASHIMOTO, R. F. ; CESAR JUNIOR, R. M.
+TI  - Signal Propagation in Bayesian Networks and its Relationship with Intrinsically Multivariate Predictive Variables
+JO  - Information Sciences
+VL  - 225
+IS  - 
+SP  - 18
+EP  - 34
+PY  - 2013
+L2  - http://dx.doi.org/10.1016/j.ins.2012.10.027
+L3  - 00200255
+ER  - 
+
+TY  - JOUR
+AU  - VICENTE, F. F. R. ; LOPES, F. M. ; HASHIMOTO, R. F. ; CESAR JUNIOR, R. M.
+TI  - Assessing the Gain of Biological Data Integration in Gene Networks Inference
+JO  - BMC Genomics
+VL  - 13
+IS  - 
+SP  - 1
+EP  - 12
+PY  - 2012
+L2  - http://dx.doi.org/10.1186/1471-2164-13-S6-S7
+L3  - 14712164
+ER  - 
+
+TY  - JOUR
+AU  - Higa, Carlos HA ; Louzada, Vitor HP ; Andrade, Tales P ; Hashimoto, Ronaldo F
+TI  - Constraint-based analysis of gene interactions using restricted boolean networks and time-series data
+JO  - BMC Proceedings
+VL  - 5
+IS  - 
+SP  - S5
+EP  - 
+PY  - 2011
+L2  - http://dx.doi.org/10.1186/1753-6561-5-S2-S5
+L3  - 17536561
+ER  - 
+
+TY  - JOUR
+AU  - MARTINS, D. C. ; BRAGA-NETO, U. ; BITTNER, M. L. ; HASHIMOTO, R. F. ; DOUGHERTY, E. R.
+TI  - Intrinsically Multivariate Predictive Genes
+JO  - IEEE Journal of Selected Topics in Signal Processing
+VL  - 2
+IS  - 
+SP  - 424
+EP  - 439
+PY  - 2008
+L2  - http://dx.doi.org/10.1109/JSTSP.2008.923841
+L3  - 19324553
+ER  - 
+
+TY  - JOUR
+AU  - TREPODE, N. W. ; ARMELIN, H. A. ; BITTNER, M. L. ; BARRERA, J. ; GUBITOSO, M. D. ; HASHIMOTO, R. F.
+TI  - A Robust Structural PGN Model for Control of Cell-Cycle Progression Stabilized by Negative Feedbacks
+JO  - EURASIP Journal on Bioinformatics and Systems Biology (Online)
+VL  - 2007
+IS  - 
+SP  - 1
+EP  - 11
+PY  - 2007
+L2  - http://dx.doi.org/10.1155/2007/73109
+L3  - 16874153
+ER  - 
+
+TY  - JOUR
+AU  - SILVA, P. J. S. ; HASHIMOTO, R. F. ; KIM, S. ; BARRERA, J. ; BRANDAO, L. O. ; SUH, E. ; DOUGHERTY, E. R.
+TI  - Feature Selection Algorithms to Find Strong Genes
+JO  - Pattern Recognition Letters
+VL  - 26
+IS  - 10
+SP  - 1444
+EP  - 1453
+PY  - 2005
+L2  - http://dx.doi.org/10.1016/j.patrec.2004.11.017
+L3  - 01678655
+ER  - 
+
+TY  - JOUR
+AU  - BRAGA-NETO, U. ; HASHIMOTO, R. F. ; DOUGHERTY, E. R. ; NGUYEN, D. V. ; CARROLL, R. J.
+TI  - Is Cross-Validation Better than Resubstitution for Ranking Genes
+JO  - Bioinformatics (Oxford)
+VL  - 20
+IS  - 2
+SP  - 253
+EP  - 258
+PY  - 2004
+L2  - http://dx.doi.org/10.1093/bioinformatics/btg399
+L3  - 13674803
+ER  - 
+
+TY  - JOUR
+AU  - HASHIMOTO, R. F. ; KIM, S. ; SHMULEVICH, Ilya ; ZHANG, Wei ; BITTNER, M. L. ; DOUGHERTY, E. R.
+TI  - Growing Genetic Regulatory Networks from Seed Genes
+JO  - Bioinformatics (Oxford)
+VL  - 20
+IS  - 8
+SP  - 1241
+EP  - 1247
+PY  - 2004
+L2  - http://dx.doi.org/10.1093/bioinformatics/bth074
+L3  - 13674803
+ER  - 
+
+TY  - JOUR
+AU  - HASHIMOTO, R. F. ; BARRERA, J.
+TI  - A Greedy Algorithm for Decomposing Convex Structuring Elements
+JO  - Journal of Mathematical Imaging and Vision
+VL  - 18
+IS  - 3
+SP  - 269
+EP  - 289
+PY  - 2003
+L2  - http://dx.doi.org/10.1023/A:1022847527229
+L3  - 09249907
+ER  - 
+
+TY  - JOUR
+AU  - HASHIMOTO, R. F. ; DOUGHERTY, E. R. ; Marcel Brun ; Zheng-Zheng Zhou ; BITTNER, M. L. ; TRENT, J. M.
+TI  - Efficient Selection of Feature Sets Possessing High Coefficients of Determination Based on Incremental Determinations
+JO  - Signal Processing
+VL  - 83
+IS  - 4
+SP  - 695
+EP  - 712
+PY  - 2003
+L2  - http://dx.doi.org/10.1016/S0165-1684(02)00468-1
+L3  - 01651684
+ER  - 
+
+TY  - JOUR
+AU  - SHMULEVICH, Ilya ; GLUHOVSKY, Ilya ; HASHIMOTO, R. F. ; DOUGHERTY, E. R. ; ZHANG, Wei
+TI  - Steady-State Analysis of Genetic Regulatory Networks Modelled by Probabilistic Boolean Networks
+JO  - Comparative and Functional Genomics
+VL  - 4
+IS  - 
+SP  - 601
+EP  - 608
+PY  - 2003
+L2  - http://dx.doi.org/10.1002/cfg.342
+L3  - 15316912
+ER  - 
+
+TY  - JOUR
+AU  - HASHIMOTO, R. F. ; BARRERA, J.
+TI  - A Note on Park and Chin´s Algorithm
+JO  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+VL  - 24
+IS  - 1
+SP  - 139
+EP  - 144
+PY  - 2002
+L2  - http://dx.doi.org/10.1109/34.982891
+L3  - 01628828
+ER  - 
+
+TY  - JOUR
+AU  - HIRATA JR., R. ; BARRERA, J. ; HASHIMOTO, R. F. ; DANTAS, D. O. ; ESTEVES, G. H.
+TI  - Segmentation of Microarray Images by Mathematical Morphology
+JO  - Real-Time Imaging
+VL  - 8
+IS  - 6
+SP  - 491
+EP  - 505
+PY  - 2002
+L2  - http://dx.doi.org/10.1006/rtim.2002.0291
+L3  - 10772014
+ER  - 
+
+TY  - JOUR
+AU  - BARRERA, J. ; HASHIMOTO, R. F.
+TI  - Sup-Compact and Inf-Compact Representations of W-Operators
+JO  - Fundamenta Informaticae
+VL  - 45
+IS  - 4
+SP  - 283
+EP  - 294
+PY  - 2001
+L2  - 
+L3  - 01692968
+ER  - 
+
+TY  - JOUR
+AU  - HASHIMOTO, R. F. ; BARRERA, J.
+TI  - From the Sup-Decomposition to Sequential Decompositions
+JO  - Journal of Mathematical Imaging and Vision
+VL  - 15
+IS  - 3
+SP  - 197
+EP  - 216
+PY  - 2001
+L2  - http://dx.doi.org/10.1023/A:1012276422769
+L3  - 09249907
+ER  - 
+
+TY  - JOUR
+AU  - HASHIMOTO, R. F. ; BARRERA, J. ; FERREIRA, C. E.
+TI  - A Combinatorial Optimization Technique for the Sequential Decomposition of Erosions and Dilations
+JO  - Journal of Mathematical Imaging and Vision
+VL  - 13
+IS  - 
+SP  - 17
+EP  - 33
+PY  - 2000
+L2  - http://dx.doi.org/10.1023/A:1008373522375
+L3  - 09249907
+ER  - 
+
+TY  - CONF
+AU  - ALVES, WONDER ALEXANDRE LUZ ; MORIMITSU, ALEXANDRE ; CASTRO, JOEL SANCHEZ ; HASHIMOTO, RONALDO FUMIO
+T1  - Extraction of Numerical Residues in Families of Levelings
+TI  - 2013 XXVI SIBGRAPI Conference on Graphics
+VL  - 
+SP  - 349
+EP  - 
+PY  - 2013
+L2  - http://dx.doi.org/10.1109/SIBGRAPI.2013.55
+ER  - 
+
+TY  - CONF
+AU  - CASTRO, J. E. S. ; BARRERA, J. ; HASHIMOTO, R. F.
+T1  - Analytical Solutions for the Minkowski Addition Equation
+TI  - 11th International Symposium on Mathematical Morphology
+VL  - 7883
+SP  - 61
+EP  - 72
+PY  - 2013
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - LOUZADA, V. H. P. ; LOPES, F. M. ; HASHIMOTO, R. F.
+T1  - A Monte Carlo Approach to Measure the Robustness of Boolean Networks
+TI  - 1st International Workshop on Robustness and Stability of Biological Systems and Computational Solutions
+VL  - 
+SP  - 696
+EP  - 699
+PY  - 2012
+L2  - http://dx.doi.org/10.1145/2382936.2383062
+ER  - 
+
+TY  - CONF
+AU  - SIMOES, S. N. ; MARTINS, D. C. ; SAMAIA, H. P. B. ; HASHIMOTO, R. F.
+T1  - Shortest Paths Ranking Methodology to Identify Alterations in PPI Networks of Complex Diseases
+TI  - ACM International Conference on Bioinformatics
+VL  - 
+SP  - 561
+EP  - 563
+PY  - 2012
+L2  - http://dx.doi.org/10.1145/2382936.2383021
+ER  - 
+
+TY  - CONF
+AU  - LOUZADA, V. H. P. ; LOPES, F. M. ; HASHIMOTO, R. F.
+T1  - The effect of certain Boolean functions in stability of networks with varying topology
+TI  - 9th IEEE International Workshop on Genomic Signal Processing and Statistics (GENSIPS)
+VL  - 
+SP  - 1
+EP  - 4
+PY  - 2011
+L2  - http://dx.doi.org/10.1109/GENSiPS.2011.6169431
+ER  - 
+
+TY  - CONF
+AU  - RODRIGUEZ, R. M. ; HASHIMOTO, R. F.
+T1  - Combining Dialectical Optimization and Gradient Descent Methods for Improving the Accuracy of Straight Line Segment Classifiers
+TI  - 24th SIBGRAPI Conference on Graphics
+VL  - 
+SP  - 321
+EP  - 328
+PY  - 2011
+L2  - http://dx.doi.org/10.1109/SIBGRAPI.2011.8
+ER  - 
+
+TY  - CONF
+AU  - VICENTE, F. F. R. ; LOPES, F. M. ; HASHIMOTO, R. F.
+T1  - Improvement of GNs inference through biological data integration
+TI  - 9th IEEE International Workshop on Genomic Signal Processing and Statistics (GENSIPS)
+VL  - 
+SP  - 1
+EP  - 4
+PY  - 2011
+L2  - http://dx.doi.org/10.1109/GENSiPS.2011.6169446
+ER  - 
+
+TY  - CONF
+AU  - ALVEZ, W. A. L. ; HASHIMOTO, R. F.
+T1  - Classification of Regions Extracted from Scene Images by Morphological Filters in Text or Non-Text using Decision Tree
+TI  - 18th International Conference on Computer Graphics
+VL  - 
+SP  - 165
+EP  - 172
+PY  - 2010
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - ALVEZ, W. A. L. ; HASHIMOTO, R. F.
+T1  - Text Regions Extracted from Scene Images by Ultimate Attribute Opening and Decision Tree Classification
+TI  - Graphics
+VL  - 
+SP  - 360
+EP  - 367
+PY  - 2010
+L2  - http://dx.doi.org/10.1109/SIBGRAPI.2010.55
+ER  - 
+
+TY  - CONF
+AU  - HIGA, C. H. A. ; LOUZADA, V. H. P. ; HASHIMOTO, R. F.
+T1  - Analysis of Gene Interactions Using Restricted Boolean Networks and Time-Series Data
+TI  - 6th International Symposium on Bioinformatics Research and Applications
+VL  - 
+SP  - 61
+EP  - 76
+PY  - 2010
+L2  - http://dx.doi.org/10.1007/978-3-642-13078-6_9
+ER  - 
+
+TY  - CONF
+AU  - MARTINS, D. C. ; OLIVEIRA, E. A. ; LOUZADA, V. H. P. ; HASHIMOTO, R. F.
+T1  - Inference of Restricted Stochastic Boolean GRN's by Bayesian Error and Entropy Based Criteria
+TI  - 15th Iberoamerican Congress on Pattern Recognition
+VL  - 6419
+SP  - 144
+EP  - 152
+PY  - 2010
+L2  - http://dx.doi.org/10.1007/978-3-642-16687-7_23
+ER  - 
+
+TY  - CONF
+AU  - HASHIMOTO, R. F. ; STAGNI, H. ; HIGA, C. H. A.
+T1  - Budding Yeast Cell Cycle Modeled by Context-Sensitive Probabilistic Boolean Network
+TI  - IEEE International Workshop on Genomic Signal Processing and Statistics
+VL  - 
+SP  - 1
+EP  - 4
+PY  - 2009
+L2  - http://dx.doi.org/10.1109/GENSIPS.2009.5174356
+ER  - 
+
+TY  - CONF
+AU  - HIGA, C. H. A. ; HASHIMOTO, R. F. ; HIRATA JR., R. ; HIRATA, Nina S. T. ; SANTOS, C. S.
+T1  - Inference of Gene Regulatory Network using Temporal Coefficient of Determination Obtained from Ergodic Markov Chains
+TI  - IEEE International Workshop on Genomic Signal Processing and Statistics
+VL  - 
+SP  - 1
+EP  - 4
+PY  - 2009
+L2  - http://dx.doi.org/10.1109/GENSIPS.2009.5174368
+ER  - 
+
+TY  - CONF
+AU  - MACHADO, A. F. ; HASHIMOTO, R. F.
+T1  - Jump-Miss Binary Erosion Algorithm
+TI  - XXII Brazilian Symposium on Computer Graphics and Image Processing
+VL  - 
+SP  - 149
+EP  - 155
+PY  - 2009
+L2  - http://dx.doi.org/10.1109/SIBGRAPI.2009.27
+ER  - 
+
+TY  - CONF
+AU  - MARTINS, D. C. ; OLIVEIRA, E. A. ; SILVA, P. J. S. ; HASHIMOTO, R. F. ; CESAR JUNIOR, R. M.
+T1  - Revealing Temporal Genetic Regulatory Networks from Steady-State Distributions
+TI  - IEEE International Workshop on Genomic Signal Processing and Statistics
+VL  - 
+SP  - 1
+EP  - 4
+PY  - 2009
+L2  - http://dx.doi.org/10.1109/GENSIPS.2009.5174335
+ER  - 
+
+TY  - CONF
+AU  - RIBEIRO, J. H. B. ; HASHIMOTO, R. F.
+T1  - A New Training Algorithm for Pattern Recognition Technique Based on Straight Line Segments
+TI  - SIBGRAPI 2008
+VL  - 
+SP  - 
+EP  - 
+PY  - 2008
+L2  - http://dx.doi.org/10.1109/SIBGRAPI.2008.35
+ER  - 
+
+TY  - CONF
+AU  - RIBEIRO, J. H. B. ; HASHIMOTO, R. F.
+T1  - A New Machine Learning Technique Based on Straight Line Segments
+TI  - Fifth International Conference on Machine Learning and Applications (ICMLA 2006)
+VL  - 
+SP  - 10
+EP  - 16
+PY  - 2006
+L2  - http://dx.doi.org/10.1109/ICMLA.2006.8
+ER  - 
+
+TY  - CONF
+AU  - BARRERA, J. ; HASHIMOTO, R. F.
+T1  - Binary Decision Diagrams as a New Paradigm for Morphological Machines
+TI  - INTERNATIONAL SYMPOSIUM ON MATHEMATICAL MORPHOLOGY
+VL  - 15
+SP  - 3
+EP  - 12
+PY  - 2005
+L2  - http://dx.doi.org/10.1007/1-4020-3443-1_1
+ER  - 
+
+TY  - CONF
+AU  - BALAGURUNATHAN, Y. ; HASHIMOTO, R. F. ; KIM, S. ; BARRERA, J. ; DOUGHERTY, E. R.
+T1  - Granulometric Classifiers from Small Samples
+TI  - PHOTONICS WEST 2002
+VL  - 4667
+SP  - 100
+EP  - 107
+PY  - 2002
+L2  - http://dx.doi.org/10.1117/12.467971
+ER  - 
+
+TY  - CONF
+AU  - HIRATA JR., R. ; BARRERA, J. ; HASHIMOTO, R. F. ; DANTAS, D. O.
+T1  - Microarray Gridding by Mathematical Morphology
+TI  - INTERNATIONAL SYMPOSIUM ON COMPUTER GRAPHICS
+VL  - 
+SP  - 112
+EP  - 119
+PY  - 2001
+L2  - http://dx.doi.org/10.1109/SIBGRAPI.2001.963045
+ER  - 
+
+TY  - CONF
+AU  - AUBERT, A. ; JEULIN, D. ; HASHIMOTO, R. F.
+T1  - Surface Texture Classification from Morphological Transformations
+TI  - International Symposium on Mathematical Morphology
+VL  - 
+SP  - 253
+EP  - 262
+PY  - 2000
+L2  - http://dx.doi.org/10.1007/0-306-47025-X_28
+ER  - 
+
+TY  - CONF
+AU  - HASHIMOTO, R. F. ; BARRERA, J. ; DOUGHERTY, E. R.
+T1  - From the Sup-Decomposition to a Sequential Decomposition
+TI  - International Symposium on Mathematical Morphology
+VL  - 
+SP  - 13
+EP  - 22
+PY  - 2000
+L2  - http://dx.doi.org/10.1007/0-306-47025-X_3
+ER  - 
+
+TY  - CONF
+AU  - HASHIMOTO, R. F. ; BARRERA, J.
+T1  - A Simple Algorithm for Decomposing Convex Structuring Elements
+TI  - XII Brazilian Symposium on Computer Graphics and Image Processing
+VL  - 
+SP  - 275
+EP  - 282
+PY  - 1999
+L2  - http://dx.doi.org/10.1109/SIBGRA.1999.805735
+ER  - 
+
+TY  - CONF
+AU  - BARRERA, J. ; FERREIRA, C. E. ; HASHIMOTO, R. F.
+T1  - Finding Optimal Sequential Decompositions of Erosions and Dilations
+TI  - International Symposium on Mathematical Morphology (ISMM´98)
+VL  - 12
+SP  - 299
+EP  - 306
+PY  - 1998
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - BARRERA, J. ; HASHIMOTO, R. F.
+T1  - Compact Representation of W-Operators
+TI  - 10th Annual Symposium on Eletronic Imaging
+VL  - 
+SP  - 84
+EP  - 94
+PY  - 1998
+L2  - http://dx.doi.org/10.1117/12.304613
+ER  - 
+
+TY  - CONF
+AU  - HASHIMOTO, R. F.
+T1  - An Extension of an Algorithm for Finding Sequential Decomposition of Erosions and Dilations
+TI  - International Symposium on Computer Graphics
+VL  - 
+SP  - 443
+EP  - 449
+PY  - 1998
+L2  - http://dx.doi.org/10.1109/SIBGRA.1998.722786
+ER  - 
+
+TY  - CONF
+AU  - BARRERA, J. ; SALAS, G. P. ; HASHIMOTO, R. F.
+T1  - Set Operations on Closed Intervals and their applications to the Automatic Programming of MMACH´s
+TI  - International Symposium on Mathematical Morphology
+VL  - 11
+SP  - 377
+EP  - 384
+PY  - 1996
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - MACHADO, A. F. ; HASHIMOTO, R. F.
+T1  - Erosões e Dilatações Morfológicas Binárias Seqüenciais Rápidas
+TI  - XXIX Congresso da Sociedade Brasileira de Computação, 2009, Bento Gonçaves. Anais do CSBC 2009 - CTD
+VL  - 
+SP  - 
+EP  - 
+PY  - 2009
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - MACHADO, A. F. ; HASHIMOTO, R. F. ; LAGO, A. P.
+T1  - Efficient Binary Erosion Algorithm Based on a String-Matching-Like Technique
+TI  - International Symposium on Mathematical Morphology, 2007, Rio de Janeiro. International Symposium on Mathematical Morphology
+VL  - 
+SP  - 
+EP  - 
+PY  - 2007
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - TREPODE, N. W. ; ARMELIN, H. A. ; BITTNER, M. L. ; BARRERA, J. ; GUBITOSO, M. D. ; HASHIMOTO, R. F.
+T1  - Modeling Cell-Cycle Regulation by Discrete Dynamical Systems
+TI  - IEEE Workshop on Genomic Signal Processing and Statistics (GENSIPS '05), 2005, Rhode Island. Proceedings of IEEE Workshop on Genomic Signal Processing and Statistics (GENSIPS '05)
+VL  - 
+SP  - 
+EP  - 
+PY  - 2005
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - HIGA, C. H. A. ; HASHIMOTO, R. F. ; MONTE, J. C. M.
+T1  - Inferring Robust Boolean Networks of the Early Embryonic Stage in Kidney Organogenesis
+TI  - Brazilian Symposium on Bioinformatics 2012 (BSB 2012), 2012, Campo Grande. Brazilian Symposium on Bioinformatics 2012 (BSB 2012)
+VL  - 
+IS  - 
+SP  - 56
+EP  - 61
+PY  - 2012
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - NORONHA, M. F. ; NETTO, O. V. C. ; CARAZZOLLE, M. F. ; PEREIRA, G. A. G. ; HASHIMOTO, R. F.
+T1  - Comparison of Boolean Networks from Yeast Strain on Fermentative Process
+TI  - 7th Conference of the Brazilian Association for Bioinformatics and Computational Biology (X-Meeting), 2010, Florianópolis. 7th Conference of the Brazilian Association for Bioinformatics and Computational Biology (X-Meeting 2011)
+VL  - 
+IS  - 
+SP  - 
+EP  - 
+PY  - 2011
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - NORONHA, M. F. ; CARAZZOLLE, M. F. ; PEREIRA, G. A. G. ; HASHIMOTO, R. F.
+T1  - Gene connection probability patern analysis in yeast diauxic shift process
+TI  - 6th International Conference of the Brazilian Association for Bioinformatics and Computational Biology X-Meeting, 2010, Ouro Preto. 6th International Conference of the Brazilian Association for Bioinformatics and Computational Biology X-Meeting 2010
+VL  - 
+IS  - 
+SP  - 
+EP  - 
+PY  - 2010
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - NAKANO, F. ; ASPRINO, P. F. ; HIGA, C. H. A. ; HASHIMOTO, R. F. ; ARMELIN, H. A.
+T1  - Searching for Genes Involved in Novel Mechanisms of Tumor Cell Death Triggered by FGF2: Introducing New Methodological Approaches
+TI  - International Conference on Intelligent Systems for Molecular Biology, 2006, Fortaleza. International Conference on Intelligent Systems for Molecular Biology
+VL  - 
+IS  - 
+SP  - 
+EP  - 
+PY  - 2006
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - HASHIMOTO, R. F. ; DOUGHERTY, E. R. ; BITTNER, M. L.
+T1  - Intrinsically Multivariately Predictive Genes
+TI  - X-Meeting - The First International Conference of the AB3C, 2005, Caxambu. X-Meeting - The First International Conference of the AB3C
+VL  - 
+IS  - 
+SP  - 85
+EP  - 85
+PY  - 2005
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - HASHIMOTO, R. F.
+T1  - Building Small Subnetworks from Seed Genes
+TI  - International Congress on Bioinformatics and Computational Biology, 2004. Second International Congress on Bioinformatics and Computational Biology
+VL  - 
+IS  - 
+SP  - 
+EP  - 
+PY  - 2004
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - HASHIMOTO, R. F. ; DOUGHERTY, E. R. ; Marcel Brun ; Zheng-Zheng Zhou ; BITTNER, M. L. ; TRENT, J. M.
+T1  - Feature Selection Based on Incremental Determinations
+TI  - International Conference on Bioinformatics and Computational Biology, 2003. First International Conference on Bioinformatics and Computational Biology
+VL  - 
+IS  - 
+SP  - 
+EP  - 
+PY  - 2003
+L2  - 
+ER  - 
