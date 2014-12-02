@@ -1,0 +1,887 @@
+
+
+TY  - JOUR
+AU  - Acuna, V ; FERREIRA, C. E. ; FREIRE, A. S. ; Moreno, E
+TI  - Solving the maximum edge biclique packing problem on unbalanced bipartite graphs
+JO  - Discrete Applied Mathematics
+VL  - 164
+IS  - 
+SP  - 2
+EP  - 12
+PY  - 2014
+L2  - http://dx.doi.org/10.1016/j.dam.2011.09.019
+L3  - 0166218X
+ER  - 
+
+TY  - JOUR
+AU  - ADI, S. S. ; FERREIRA, CARLOS EDUARDO
+TI  - Syntenic global alignment and its application to the gene prediction problem
+JO  - Journal of the Brazilian Computer Society (Impresso)
+VL  - 19
+IS  - 
+SP  - 511
+EP  - 521
+PY  - 2013
+L2  - http://dx.doi.org/10.1007/s13173-013-0115-9
+L3  - 01046500
+ER  - 
+
+TY  - JOUR
+AU  - FERREIRA, C. E. ; GUNTHER, U. ; MARTIN, A.
+TI  - Mathematical Models and Polyhedral Studies for Integral Sheet Metal Design
+JO  - SIAM Journal on Optimization (Print)
+VL  - 22
+IS  - 
+SP  - 1493
+EP  - 1517
+PY  - 2012
+L2  - http://dx.doi.org/10.1137/110853248
+L3  - 10526234
+ER  - 
+
+TY  - JOUR
+AU  - TAKAHASHI, D. Y. ; SATO, J. R. ; FERREIRA, C. E. ; FUJITA, ANDRÉ
+TI  - Discriminating different classes of biological networks by analyzing the graphs spectra distribution
+JO  - Plos One
+VL  - 7
+IS  - 
+SP  - e49949
+EP  - 
+PY  - 2012
+L2  - http://dx.doi.org/10.1371/journal.pone.0049949
+L3  - 19326203
+ER  - 
+
+TY  - JOUR
+AU  - FUJITA, A. ; SATO, J. R. ; Demasi, M.A.M. ; YAMAGUCHI, R. ; Shimamura, T ; FERREIRA, C. E. ; SOGAYAR, M. C. ; Miyano, S.
+TI  - Inferring contagion in regulatory networks
+JO  - IEEE/ACM Transactions on Computational Biology and Bioinformatics (Print)
+VL  - 8
+IS  - 
+SP  - 570
+EP  - 576
+PY  - 2011
+L2  - 
+L3  - 15455963
+ER  - 
+
+TY  - JOUR
+AU  - ADI, S. S. ; BRAGA, M.D.V. ; FERNANDES, C. G. ; FERREIRA, C. E. ; MARTINEZ, F.H.V. ; SAGOT, M-F ; STEFANES, M.A. ; TJANDRAATMADJA, C. ; WAKABAYASHI, Y.
+TI  - Repetition-free longest common subsequence
+JO  - Discrete Applied Mathematics
+VL  - 158
+IS  - 
+SP  - 1315
+EP  - 1324
+PY  - 2010
+L2  - http://dx.doi.org/10.1016/j.dam.2009.04.023
+L3  - 0166218X
+ER  - 
+
+TY  - JOUR
+AU  - FUJITA, A. ; SATO, J. R. ; Demasi, M.A.M. ; SOGAYAR, M. C. ; FERREIRA, C. E. ; Miyano, S.
+TI  - Comparing Pearson, Spearman and Hoeffding's D measure for gene expression association analysis
+JO  - Journal of Bioinformatics and Computational Biology (Print)
+VL  - 7
+IS  - 
+SP  - 663
+EP  - 684
+PY  - 2009
+L2  - http://dx.doi.org/10.1142/S0219720009004230
+L3  - 02197200
+ER  - 
+
+TY  - JOUR
+AU  - VIANA, G. V. ; GOMES, F. A. C. ; MENESES, C. ; FERREIRA, C. E.
+TI  - Parallelization of a Multi-neighborhood local search heuristic for a phylogeny problem
+JO  - International Journal of Bioinformatics Research and Applications (Online)
+VL  - 5
+IS  - 
+SP  - 163
+EP  - 177
+PY  - 2009
+L2  - http://dx.doi.org/10.1504/IJBRA.2009.024034
+L3  - 17445493
+ER  - 
+
+TY  - JOUR
+AU  - FUJITA, A. ; SATO, J. R. ; FESTA, F. ; GOMES, L.R. ; OBA-SHINJO, S.M. ; MARIE, S.K.N. ; FERREIRA, C. E. ; SOGAYAR, M. C.
+TI  - Identification of Col6a1 as a differentially expressed gene in human astrocytomas
+JO  - Genetics and Molecular Research
+VL  - 7
+IS  - 
+SP  - 371
+EP  - 378
+PY  - 2008
+L2  - 
+L3  - 16765680
+ER  - 
+
+TY  - JOUR
+AU  - FUJITA, ANDRÉ ; SATO, JOÃO RICARDO ; GARAY-MALPARTIDA, HUMBERTO MIGUEL ; SOGAYAR, MARI CLEIDE ; FERREIRA, C. E. ; MIYANO, SATORU
+TI  - MODELING NONLINEAR GENE REGULATORY NETWORKS FROM TIME SERIES GENE EXPRESSION DATA
+JO  - Journal of Bioinformatics and Computational Biology
+VL  - 06
+IS  - 
+SP  - 961
+EP  - 979
+PY  - 2008
+L2  - http://dx.doi.org/10.1142/S0219720008003746
+L3  - 02197200
+ER  - 
+
+TY  - JOUR
+AU  - FEOFILOFF, P. ; FERNANDES, C. G. ; FERREIRA, C. E. ; PINA JR, J. C.
+TI  - Primal-Dual Approximation Algorithms for the Prize-Collecting Steiner Tree Problem
+JO  - Information Processing Letters
+VL  - 103
+IS  - 
+SP  - 195
+EP  - 202
+PY  - 2007
+L2  - http://dx.doi.org/10.1016/j.ipl.2007.03.012
+L3  - 00200190
+ER  - 
+
+TY  - JOUR
+AU  - FUJITA, A. ; SATO, J. R. ; FERREIRA, C. E. ; SOGAYAR, M. C.
+TI  - GEDI: an user-friendly toolbox for analysis of large-scale gene expression data
+JO  - BMC Bioinformatics
+VL  - 8
+IS  - 
+SP  - 457
+EP  - 
+PY  - 2007
+L2  - http://dx.doi.org/10.1186/1471-2105-8-457
+L3  - 14712105
+ER  - 
+
+TY  - JOUR
+AU  - FUJITA, A. ; SATO, J. R. ; GARAY-MALPARTIDA, HM ; MORETTIN, PA ; SOGAYAR, M. C. ; FERREIRA, C. E.
+TI  - Time-varying modeling of gene expression regulatory networks using the wavelet dynamic vector autoregressive method
+JO  - Bioinformatics (Oxford)
+VL  - 23
+IS  - 
+SP  - 1623
+EP  - 1630
+PY  - 2007
+L2  - http://dx.doi.org/10.1093/bioinformatics/btm151
+L3  - 13674803
+ER  - 
+
+TY  - JOUR
+AU  - FUJITA, A. ; SATO, J. R. ; GARAY-MALPARTIDA, HM ; YAMAGUCHI, R. ; Miyano, S. ; SOGAYAR, M. C. ; FERREIRA, C. E.
+TI  - Modeling gene expression regulatory networks with the sparse vector autoregressive model
+JO  - BMC Systems Biology
+VL  - 1
+IS  - 
+SP  - 39
+EP  - 
+PY  - 2007
+L2  - http://dx.doi.org/10.1186/1752-0509-1-39
+L3  - 17520509
+ER  - 
+
+TY  - JOUR
+AU  - FERREIRA, C. E. ; OLIVEIRA FILHO, F. M. DE
+TI  - Some formulations for the group Steiner tree problem
+JO  - Discrete Applied Mathematics
+VL  - 154
+IS  - 
+SP  - 1877
+EP  - 1884
+PY  - 2006
+L2  - http://dx.doi.org/10.1016/j.dam.2006.03.028
+L3  - 0166218X
+ER  - 
+
+TY  - JOUR
+AU  - FERREIRA, C. E. ; OLIVEIRA FILHO, F. M. DE
+TI  - New reduction techniques for the group Steiner tree problem
+JO  - SIAM Journal on Optimization
+VL  - 17
+IS  - 
+SP  - 1176
+EP  - 1188
+PY  - 2006
+L2  - http://dx.doi.org/10.1137/040610891
+L3  - 10526234
+ER  - 
+
+TY  - JOUR
+AU  - FUJITA, A. ; SATO, J. R. ; Rodrigues, L.O. ; FERREIRA, C. E. ; SOGAYAR, M. C.
+TI  - Evaluating different methods of microarray data normalization
+JO  - BMC Bioinformatics
+VL  - 7
+IS  - 
+SP  - 469
+EP  - 
+PY  - 2006
+L2  - http://dx.doi.org/10.1186/1471-2105-7-469
+L3  - 14712105
+ER  - 
+
+TY  - JOUR
+AU  - ADI, S. S. ; FERREIRA, C. E.
+TI  - Gene prediction by multiple syntenic alignment
+JO  - Journal of Integrative Bioinformatics
+VL  - 13
+IS  - 
+SP  - 
+EP  - 
+PY  - 2005
+L2  - 
+L3  - 16134516
+ER  - 
+
+TY  - JOUR
+AU  - FUJITA, A. ; MASSIRER, K. B. ; DURHAM, A. M. ; FERREIRA, C. E. ; SOGAYAR, M. C.
+TI  - GATO gene annotation tool for research laboratories
+JO  - Brazilian Journal of Medical and Biological Research (Impresso)
+VL  - 38
+IS  - 11
+SP  - 1571
+EP  - 1574
+PY  - 2005
+L2  - http://dx.doi.org/10.1590/S0100-879X2005001100002
+L3  - 0100879X
+ER  - 
+
+TY  - JOUR
+AU  - O. Alves ; FERREIRA, C. E. ; Fabio P. Machado
+TI  - Estimates for the spreading velocity of an epidemic model
+JO  - Mathematics and Computers in Simulation (Print)
+VL  - 64
+IS  - 6
+SP  - 609
+EP  - 616
+PY  - 2003
+L2  - http://dx.doi.org/10.1016/j.matcom.2003.11.014
+L3  - 03784754
+ER  - 
+
+TY  - JOUR
+AU  - FERREIRA, C. E. ; SOUZA, C. C. ; WAKABAYASHI, Y.
+TI  - Rearrangement of DNA Fragments: a Branch-and-Cut Algorithm
+JO  - Discrete Applied Mathematics
+VL  - 116
+IS  - 1-2
+SP  - 161
+EP  - 177
+PY  - 2002
+L2  - 
+L3  - 0166218X
+ER  - 
+
+TY  - JOUR
+AU  - HASHIMOTO, R. F. ; BARRERA, J. ; FERREIRA, C. E.
+TI  - A combinatorial optimization technique for the sequential decomposition of erosions and dilations
+JO  - Journal of Mathematical Imaging and Vision
+VL  - 13
+IS  - 1
+SP  - 17
+EP  - 33
+PY  - 2000
+L2  - 
+L3  - 09249907
+ER  - 
+
+TY  - JOUR
+AU  - BORNDOERFER, R. ; FERREIRA, C. E. ; MARTIN, A.
+TI  - Decomposing Matrices into blocks
+JO  - SIAM Journal on Optimization
+VL  - 9
+IS  - 1
+SP  - 236
+EP  - 269
+PY  - 1999
+L2  - 
+L3  - 10526234
+ER  - 
+
+TY  - JOUR
+AU  - FERREIRA, C. E. ; MIAZAWA, F. K. ; WAKABAYASHI, Y.
+TI  - Packing Squares into squares
+JO  - Pesquisa Operacional
+VL  - 29
+IS  - 2
+SP  - 223
+EP  - 237
+PY  - 1999
+L2  - 
+L3  - 01017438
+ER  - 
+
+TY  - JOUR
+AU  - FERREIRA, C. E. ; MARTIN, A. ; SOUZA, C. C. ; WEISMANTEL, R. ; WOLSEY, L.
+TI  - The Node Capacitated Graph Partitioning Problem: a computational study
+JO  - Mathematical Programming
+VL  - 81
+IS  - 2
+SP  - 229
+EP  - 256
+PY  - 1998
+L2  - http://dx.doi.org/10.1007/BF01581107
+L3  - 00255610
+ER  - 
+
+TY  - JOUR
+AU  - FERREIRA, C. E. ; MARTIN, A. ; SOUZA, C. C. ; WEISMANTEL, R. ; WOLSEY, L.
+TI  - Formulations and Valid Inequalities for the Node Capacitated Graph partitioning problem
+JO  - Mathematical Programming
+VL  - 74
+IS  - 3
+SP  - 247
+EP  - 266
+PY  - 1996
+L2  - http://dx.doi.org/10.1007/BF02592198
+L3  - 00255610
+ER  - 
+
+TY  - JOUR
+AU  - FERREIRA, C. E. ; MARTIN, A. ; WEISMANTEL, R.
+TI  - Solving Multiple Knapsack Problems
+JO  - SIAM Journal on Optimization
+VL  - 6
+IS  - 3
+SP  - 858
+EP  - 877
+PY  - 1996
+L2  - 
+L3  - 10526234
+ER  - 
+
+TY  - JOUR
+AU  - FERREIRA, C. E. ; GROETSCHEL, M. ; KIEFL, S. ; KRISPENZ, L. ; MARTIN, A. ; WEISMANTEL, R.
+TI  - Some Integer Programs Arising in the Design of Main Frame Computers
+JO  - Zeitschrift für Operations Research
+VL  - 38
+IS  - 
+SP  - 77
+EP  - 100
+PY  - 1993
+L2  - 
+L3  - 03409422
+ER  - 
+
+TY  - CONF
+AU  - FERNANDES, C. G. ; FERREIRA, C. E. ; FRANCO, A. J. P. ; SCHOUERY, R. C. S.
+T1  - The Envy-Free Pricing Problem and Unit-Demand Markets
+TI  - International Symposium on Combinatorial Optimization
+VL  - 8996
+SP  - 230
+EP  - 241
+PY  - 2014
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; FRANCO, A. J. P. ; SILVA, M. F.
+T1  - Finding Matrimonial Circuits in some Amerindian Kinship Networks: an Experimental Study
+TI  - 10th IEEE International Conference on e-Science
+VL  - 
+SP  - 
+EP  - 
+PY  - 2014
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FREIRE, A. S. ; Acuna, V ; Crescenzi, P. ; FERREIRA, C. E. ; Milreu, P.V. ; Moreno, E ; SAGOT, M-F
+T1  - Minimum ratio cover of matrix columns by extreme rays of its induced cone
+TI  - International Symposium on Combinatorial Optimization
+VL  - 
+SP  - 
+EP  - 
+PY  - 2012
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; TJANDRAATMADJA, C.
+T1  - O problema da subsequência comum máxima sem repetições
+TI  - Concurso de Dissertações e Teses da SBC
+VL  - 
+SP  - 
+EP  - 
+PY  - 2011
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - Acuna, V ; FERREIRA, C. E. ; FREIRE, A. S. ; Moreno, E
+T1  - The biclique k-clustering problem in bipartite graphs and its application in bioinformatics
+TI  - International Symposium on Combinatorial Optimization
+VL  - 36
+SP  - 159
+EP  - 166
+PY  - 2010
+L2  - http://dx.doi.org/10.1016/j.endm.2010.05.021
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; TJANDRAATMADJA, C.
+T1  - A branch-and-cut approach to the repetition-free longest common subsequence problem
+TI  - International Symposium on Combinatorial Optimization
+VL  - 36
+SP  - 527
+EP  - 534
+PY  - 2010
+L2  - http://dx.doi.org/10.1016/j.endm.2010.05.067
+ER  - 
+
+TY  - CONF
+AU  - FREIRE, A. S. ; FERREIRA, C. E. ; CESAR, R.M.
+T1  - A Column Generation Approach for the Graph matching problem
+TI  - International Conference on Pattern Recognition
+VL  - 
+SP  - 1088
+EP  - 1091
+PY  - 2010
+L2  - http://dx.doi.org/10.1109/ICPR.2010.272
+ER  - 
+
+TY  - CONF
+AU  - FERNANDES, C. G. ; FERREIRA, C. E. ; TJANDRAATMADJA, C. ; WAKABAYASHI, Y.
+T1  - A polyhedral investigation of the LCS problem and a repetition-free variant
+TI  - 8th Latin American Theoretical Informatics Symposium
+VL  - 4957
+SP  - 329
+EP  - 338
+PY  - 2008
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - VIANA, G. V. ; GOMES, F. A. C. ; MENESES, C. ; FERREIRA, C. E.
+T1  - Uma implementação eficiente de uma heurística de busca local em multi-vizinhanças para um Problema de Filogenia
+TI  - XXIX Simpósio Brasileiro de Pesquisa Operacional
+VL  - 
+SP  - 
+EP  - 
+PY  - 2007
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - ADI, S. S. ; FERREIRA, C. E.
+T1  - Alinhamento de Seqüências e o Problema da Identificação de Genes
+TI  - Workshop de Biologia Computacional
+VL  - 
+SP  - 
+EP  - 
+PY  - 2006
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - CAMPOS, C. P. ; FERREIRA, C. E.
+T1  - Boca: um sistema de apoio a competições de programação
+TI  - Workshop de Educação em Informática
+VL  - 
+SP  - 
+EP  - 
+PY  - 2004
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FREIRE, A. S. ; C. Asmussen ; F. Kon ; A. Goldman ; FERREIRA, C. E.
+T1  - MICO - University Schedule Planner
+TI  - Workshop de Software Livre
+VL  - 
+SP  - 147
+EP  - 150
+PY  - 2004
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - MORIMOTO, Carlos Hitoshi ; SOARES, José Augusto Ramos ; FERREIRA, C. E.
+T1  - Panda: sistema de gerenciamento de cursos online
+TI  - Workshop de Educação em Informática
+VL  - 
+SP  - 1104
+EP  - 1113
+PY  - 2004
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - ADI, S. S. ; FERREIRA, C. E.
+T1  - Uma avaliação de ferramentas de predição de genes
+TI  - Semish
+VL  - 
+SP  - 133
+EP  - 143
+PY  - 2002
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - ADI, S. S. ; FERREIRA, C. E.
+T1  - DNA Fragments Assembly Programs: a Comparative Study
+TI  - Brazilian Symposium on Graphs
+VL  - 
+SP  - 
+EP  - 
+PY  - 2001
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; ADI, S. S.
+T1  - Ferramentas de auxílio ao seqüenciamento de DNA por montagem de fragmentos: um estudo comparativo
+TI  - IV Oficina Nacional de Problemas de Corte e Empacotamento
+VL  - 
+SP  - 77
+EP  - 97
+PY  - 2000
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; KIRA, E. ; SANTOS, L. C. C.
+T1  - Modeling academic performance for undergraduate students
+TI  - International Conference on Education in Computer Science and Engineering
+VL  - 
+SP  - 
+EP  - 
+PY  - 2000
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; SILVA, D. M.
+T1  - O novo BCC da USP: um novo curso para os desafios do novo milênio
+TI  - Congresso da Sociedade Brasileira de Computação
+VL  - 
+SP  - 505
+EP  - 514
+PY  - 1999
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - BARRERA, J. ; FERREIRA, C. E. ; HASHIMOTO, R. F.
+T1  - Finding Optimal Sequential Decompositions of Erosions and Dilations
+TI  - International Symposium on Mathematical Morphology
+VL  - 
+SP  - 
+EP  - 
+PY  - 1998
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; SIBRÃO, E. R.
+T1  - Escalonamento em Sistemas de Produção: um estudo de caso
+TI  - XXX Simpósio Brasileiro de Pesquisa Operacional
+VL  - 
+SP  - 123
+EP  - 130
+PY  - 1998
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; LOPARIC, M.
+T1  - Uma aplicação do Método Branch and Cut a um Problema de Roteamento de Veículos
+TI  - Congresso da Sociedade Brasileira de Computação
+VL  - 
+SP  - 509
+EP  - 516
+PY  - 1997
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; SOUZA, C. C. ; WAKABAYASHI, Y.
+T1  - Rearrangement of DNA fragments: a branch and cut approach 
+TI  - II ALIO/EURO Workshop on Practical Combinatorial Optimization
+VL  - 
+SP  - 
+EP  - 
+PY  - 1996
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERNANDES, C. G. ; FERREIRA, C. E. ; WAKABAYASHI, Y. ; Miyazawa, F.K.
+T1  - Selfish square packing
+TI  - LAGOS - VI Latin American Algorithms, Graphs, and Optimization Symposium, 2011, Bariloche, Argentina. Electronic Notes in Discrete Mathematics
+VL  - 37
+SP  - 369
+EP  - 374
+PY  - 2011
+L2  - http://dx.doi.org/10.1016/j.endm.2011.05.063
+ER  - 
+
+TY  - CONF
+AU  - FREIRE, A. S. ; FERREIRA, C. E. ; Assunção, G.P.
+T1  - A dynamic programming algorithm for the tree mapping problem
+TI  - LAGOS - VI Latin American Algorithms, Graphs, and Optimization Symposium, 2011, Bariloche, Argentina. Electronic Notes in Discrete Mathematics
+VL  - 37
+SP  - 147
+EP  - 152
+PY  - 2011
+L2  - http://dx.doi.org/10.1016/j.endm.2011.05.026
+ER  - 
+
+TY  - CONF
+AU  - FREIRE, A. S. ; FERREIRA, C. E.
+T1  - Correspondência inexata de grafos
+TI  - Concurso de Teses e Disertações da SBC, 2009, Bento Gonçalves. Anais do Congresso da SBC
+VL  - 
+SP  - 
+EP  - 
+PY  - 2009
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - ADI, S. S. ; BRAGA, M.D.V. ; FERNANDES, C. G. ; FERREIRA, C. E. ; MARTINEZ, F.H.V. ; SAGOT, M-F ; STEFANES, M.A. ; TJANDRAATMADJA, C. ; WAKABAYASHI, Y.
+T1  - Repetition free longest common subsequence
+TI  - LAGOS 07 IV Latin American Algorithms, Graphs and Optimization Symposium, 2008, Puerto Varas, Chile. Electronic Notes in Discrete Mathematics
+VL  - 30
+SP  - 243
+EP  - 248
+PY  - 2008
+L2  - http://dx.doi.org/10.1016/j.endm.2008.01.042
+ER  - 
+
+TY  - CONF
+AU  - FUJITA, A. ; SOGAYAR, M. C. ; FERREIRA, C. E.
+T1  - Análise de dados de expressão gênica: normalização de microarrays e modelagem de redes regulatórias
+TI  - CTD do Congresso da SBC, 2008, Belém, PA. Anais do CTD do XXIX Congresso da Sociedade Brasileira de Computação. Porto Alegre, RS: Editora da SBC
+VL  - 
+SP  - 9
+EP  - 16
+PY  - 2008
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - ADI, S. S. ; FERREIRA, C. E.
+T1  - Gene prediction by syntenic alignment
+TI  - Brazilian Simposium on Bioinformatics, 2005, São Leopoldo, RS. Lecture Notes in Bioinformatics. Berlin Heidelberg: Springer Verlag
+VL  - 3594
+SP  - 246
+EP  - 250
+PY  - 2005
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - ADI, S. S. ; FERREIRA, C. E.
+T1  - An Experimental Evaluation of Similarity-Based Gene Prediction Tools
+TI  - 2nd International Conference on Bioinformatics and Computational Biology, 2004, Angra dos Reis, Brazil. Proceedings of the 2nd ICOBICOBI
+VL  - 
+SP  - 
+EP  - 
+PY  - 2004
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; OLIVEIRA FILHO, F. M. DE
+T1  - Some formulations for the group Steiner tree problem
+TI  - Latin-American Conference on Combinatorics, Graphs and Applications, 2004, Santiago, Chile. Eletronic Notes in Discrete Mathematics - Proceedings of the LACGA04
+VL  - 18
+SP  - 127
+EP  - 132
+PY  - 2004
+L2  - http://dx.doi.org/10.1016/j.endm.2004.06.020
+ER  - 
+
+TY  - CONF
+AU  - PREVIERO, W. D. ; FERREIRA, C. E.
+T1  - Algoritmos Branch and Bound para o problema de sequenciamento em uma única máquina
+TI  - XXXV Congresso Nacional de Matemática Aplicada e Computacional, 2014, Natal, RN. Proceedings do XXXV CNMAC 2014
+VL  - 
+IS  - 
+SP  - 
+EP  - 
+PY  - 2014
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FRANCO, A. J. P. ; FERREIRA, C. E.
+T1  - A new linear time algorithm to construct dominator trees in reducible flow graphs
+TI  - International Symposium on Mathematical Programming, 2012, Berlin. Proceedings of the 30th ISMP
+VL  - 1
+IS  - 
+SP  - 223
+EP  - 223
+PY  - 2012
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FUJITA, A. ; SATO, J. R. ; SOGAYAR, M. C. ; FERREIRA, C. E.
+T1  - Modeling gene expression regulatory networks with the sparse vector autoregressive model
+TI  - Asian Pacific Bioinformatics Conference, 2008, Kyoto. Proceedings of tha APBC 2008
+VL  - 
+IS  - 
+SP  - 
+EP  - 
+PY  - 2008
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FUJITA, A. ; SATO, J. R. ; SOGAYAR, M. C. ; FERREIRA, C. E.
+T1  - GEDI: a user-friendly gene expression analisys toolbox
+TI  - German Conference on Bioinformatics, 2007, Potsdam. Proceedings of the Geman Conference on Bioinformatics
+VL  - 
+IS  - 
+SP  - 
+EP  - 
+PY  - 2007
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; OLIVEIRA FILHO, F. M. DE
+T1  - O problema de Steiner com grupos
+TI  - Concursos de teses e dissertações da SBC, 2006, Campo Grande, MS
+VL  - 
+IS  - 
+SP  - 
+EP  - 
+PY  - 2006
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; OLIVEIRA FILHO, F. M. DE
+T1  - The group Steiner tree problem
+TI  - International Symposium on Mathematical Programming, 2006, Rio de Janeiro
+VL  - 
+IS  - 
+SP  - 
+EP  - 
+PY  - 2006
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; SOUZA, C. C. ; WAKABAYASHI, Y.
+T1  - Montagem de Fragmentos: uma abordagem poliédrica
+TI  - Workshop de Biologia Computacional, 2006, Campo Grande, MS
+VL  - 
+IS  - 
+SP  - 
+EP  - 
+PY  - 2006
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FUJITA, A. ; SATO, J. R. ; SOGAYAR, M. C. ; FERREIRA, C. E.
+T1  - Non-Parametric Regression and Canonical Correlation Analysis in Tumor Classification
+TI  - 2nd International Conference on Bioinformatics and Computational Biology, 2004, Agra dos Reis, Brazil. Proceedings of the 2nd ICOBICOBI (posters)
+VL  - 
+IS  - 
+SP  - 
+EP  - 
+PY  - 2004
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; ADI, S. S.
+T1  - Gene Prediction by Spliced Alignment
+TI  - International Conference on Bioinformatics and Computational Biology, 2003, Ribeirão Preto. Anais do ICOBICOBI
+VL  - 
+IS  - 
+SP  - 
+EP  - 
+PY  - 2003
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; SOUZA, C. C. ; WAKABAYASHI, Y.
+T1  - A polyhedral approach for DNA fragments rearrangement
+TI  - XVI International Symposium on Mathematical Programming, 1997, Lausanne. Proceedings of the XVI ISMP
+VL  - 
+IS  - 
+SP  - 90
+EP  - 90
+PY  - 1997
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - BORNDOERFER, R. ; FERREIRA, C. E. ; MARTIN, A.
+T1  - Matrix Decomposition: a branch and cut approach
+TI  - V SIAM Conference on Optimization, 1996, Victoria. Proceedings of the V SIAM Conference on Optimization
+VL  - 
+IS  - 
+SP  - 57
+EP  - 57
+PY  - 1996
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; SOUZA, C. C. ; WAKABAYASHI, Y.
+T1  - Reconstruction of DNA fragments: a graph model
+TI  - XVIII Congresso Nacional de Matemática Aplicada e Computacional, 1995, Curitiba. Anais do XVIII CNMAC
+VL  - 
+IS  - 
+SP  - 90
+EP  - 94
+PY  - 1995
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; GROETSCHEL, M. ; MARTIN, A. ; WEISMANTEL, R.
+T1  - Polyhedral Studies for the Multicut Problem in Hypergraphs
+TI  - XV International Symposium on Mathematical Programming, 1994, Ann Arbor. Proceedings of the XV ISMP
+VL  - 
+IS  - 
+SP  - 76
+EP  - 76
+PY  - 1994
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; MARTIN, A. ; WEISMANTEL, R.
+T1  - Facets for the multiple knapsack problem
+TI  - Encontro da Academia Brasileira de Ciências, 1994, São Paulo. Anais da Academia Brasileira de Ciências
+VL  - 66
+IS  - 
+SP  - 503
+EP  - 503
+PY  - 1994
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; NUNES, A. L. S.
+T1  - Uma implementação de simulated annealing iterado aplicada a problemas de partição de grafos
+TI  - XXVI Simpósio Brasileiro de Pesquisa Operacional, 1994, Florianópolis. Anais do XXVI SBPO
+VL  - 
+IS  - 
+SP  - 
+EP  - 
+PY  - 1994
+L2  - 
+ER  - 
+
+TY  - CONF
+AU  - FERREIRA, C. E. ; MARTIN, A. ; WEISMANTEL, R.
+T1  - A Branch and Cut Algorithm for the Multiple Knapsack Problem
+TI  - Deutsche Mathematiker Vereinigung Jahrestagung, 1992, Berlin. Anais do DMV Jahrestagung
+VL  - 
+IS  - 
+SP  - 73
+EP  - 73
+PY  - 1992
+L2  - 
+ER  - 
