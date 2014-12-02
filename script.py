@@ -20,30 +20,56 @@ def main(argv):
     filename = reader.getFilename()
 
     #extrai o nome do objeto Professor
-    autor = filename[:-4]
+    autor = extractProf(filename)
 
     #faz o parsing do arquivo .ris
     lista = list()
     index = [0];
+
+    #define qual o tipo de arquivo de entrada
+    fileType = defineFileType()
+
     with open(filename, 'r') as data:
         for line in data:
-            runPattern(line, lista, index)
+            runPattern(line, lista, index, fileType)
 
     #converte os dados para OWL
     entradas = ""
     for hashmap in lista:
-        #print(hashmap.items(),"\n")
         interpreter = Interpreter(hashmap, autor)
         entradas += interpreter.createIndividual()
 
     #salva os dados em OWL num arquivo de saída
-    writer = Writer()
+    writer = Writer(autor, fileType)
     writer.writeFile(entradas)
+    print(">>> CONCLUÍDO: arquivo '"+ writer.filename +"' gerado com sucesso\n")
+
+
+#extrai o nome do Professor no filename
+#=================================================================
+def extractProf(filename):
+    pattern = "\/?(\w+)\.ris"
+    #print("filename: " + filename)
+    match = re.search(pattern, filename)
+    if match:
+        return match.group(1)
+    print("ERRO: nome de arquivo inválido")
+    exit()
+
+#define qual o tipo de arquivo de entrada
+#=================================================================
+def defineFileType():
+    fileType = input("Qual o tipo de arquivo .ris? [prof/alun/publ]\n")
+    if fileType == 'prof' or fileType == 'alun' or fileType == 'publ':
+        return fileType
+    else:
+        print ("ERRO: opção de arquivo inválida")
+        exit()
 
 
 #interpreta padrão com expressões regulares
 #=================================================================
-def runPattern(line, lista, index):
+def runPattern(line, lista, index, fileType):
     #padrões de busca regex
     patterns = [
 
@@ -66,7 +92,10 @@ def runPattern(line, lista, index):
         match = re.search(pattern, line)
         if match:
             if match.group(1) == 'TY':
-                hashmap = {'TY': match.group(2)}
+                if fileType == 'publ':
+                    hashmap = {'TY': match.group(2)}
+                else:
+                    hashmap = {'TY': fileType}
                 lista.insert(index[0], hashmap)
                 index[0] += 1
             elif match.group(1) == 'CITA':
@@ -107,7 +136,7 @@ class Reader:
 
         #se o arquivo não existir: ERRO
         if not os.path.isfile(self.filename):
-            print("ERRO: arquivo %s inexistente" % self.fileName)
+            print("ERRO: arquivo %s inexistente" % self.filename)
             exit()
 
     #>>> devolve o nome do arquivo lido
@@ -127,10 +156,10 @@ class Writer:
     #>>> construtor
     #__init__([filename]) -> self
     #===============================================================
-    def __init__(self, filename = "saida.owl"):
-        self.filename = filename
+    def __init__(self, filename, filetype):
+        self.filename = filename + '_' + filetype + '.owl'
 
-    #>>> cria um arquivo 'saida.owl'
+    #>>> cria um arquivo 'nomeProfessor_tipo.owl'
     #writeFile(string) -> None
     #===============================================================
     def writeFile(self, text):
@@ -166,7 +195,9 @@ class Interpreter:
     #createIndividual() -> string
     #================================================================
     def createIndividual(self):
-        if self.hashmap['TY'] == 'MEMBRO':
+        if self.hashmap['TY'] == 'alun':
+            return self._createAluno()
+        elif self.hashmap['TY'] == 'prof':
             return self._createProfessor()
         elif self.hashmap['TY'] == 'JOUR':
             return self._createJournal()
@@ -175,6 +206,21 @@ class Interpreter:
         else:
             return ""
 
+    #>>> cria um indivíduo do tipo Aluno
+    #_createAluno() -> string
+    #=================================================================
+    def _createAluno(self):
+        nome = self.putUnderline(self.hashmap['NOME'])
+        individuo = "<owl:NamedIndividual rdf:about=\"{0}{1}\">\n".format(self.ontoName, nome)
+        individuo += "\t<rdf:type rdf:resource=\"{0}Aluno\"/>\n".format(self.ontoName)
+        for citacao in self.hashmap['CITA']:
+            individuo += "\t<nomeCitacao rdf:datatype=\"&xsd;string\">"+citacao+"</nomeCitacao>\n"
+        individuo += "\t<firstName rdf:datatype=\"&xsd;string\">"+re.sub("\s.*$", "", self.hashmap['NOME'])+"</firstName>\n"
+        individuo += "\t<familyName rdf:datatype=\"&xsd;string\">"+re.sub("^.*? ", "", self.hashmap['NOME'])+"</familyName>\n"
+        individuo += "\t<name rdf:datatype=\"&xsd;string\">"+self.hashmap['NOME']+"</name>\n"
+        individuo += "\t<temOrientador rdf:resource=\""+self.ontoName + self.autor+"\"\>\n"
+        individuo += "</owl:NamedIndividual>\n\n"
+        return individuo
 
     #>>> cria um indivíduo do tipo Professor
     #_createProfessor() -> string
@@ -185,12 +231,12 @@ class Interpreter:
         individuo = "<owl:NamedIndividual rdf:about=\"{0}{1}\">\n".format(self.ontoName, nome)
         individuo += "\t<rdf:type rdf:resource=\"{0}Professor\"/>\n".format(self.ontoName)
         for citacao in self.hashmap['CITA']:
-            individuo += "\t<nomeCitacao>"+citacao+"</nomeCitacao>\n"
-        individuo += "\t<renata:firstName>"+re.sub("\s.*$", "", self.hashmap['NOME'])+"</renata:firstName>\n"
-        individuo += "\t<renata:familyName>"+re.sub("^.*? ", "", self.hashmap['NOME'])+"</renata:familyName>\n"
-        individuo += "\t<renata:name>"+self.hashmap['NOME']+"</renata:name>\n"
-        individuo += "\t<afiliado rdf:resource="+self.ontoName+"Departamento_de_Ciência_Da_Computação/>\n"
-        individuo += "</owl:NamedIndividual>\n"
+            individuo += "\t<nomeCitacao rdf:datatype=\"&xsd;string\">"+citacao+"</nomeCitacao>\n"
+        individuo += "\t<firstName rdf:datatype=\"&xsd;string\">"+re.sub("\s.*$", "", self.hashmap['NOME'])+"</firstName>\n"
+        individuo += "\t<familyName rdf:datatype=\"&xsd;string\">"+re.sub("^.*? ", "", self.hashmap['NOME'])+"</familyName>\n"
+        individuo += "\t<name rdf:datatype=\"&xsd;string\">"+self.hashmap['NOME']+"</name>\n"
+        individuo += "\t<afiliado rdf:resource=\""+self.ontoName+"Departamento_de_Ciência_Da_Computação\"/>\n"
+        individuo += "</owl:NamedIndividual>\n\n"
         return individuo
 
     #>>> cria um indivíduo do tipo ArtigoEmRevista
@@ -203,9 +249,9 @@ class Interpreter:
         individuo = "<owl:NamedIndividual rdf:about=\""+self.ontoName + artigo+"\">\n"
         individuo += "\t<rdf:type rdf:resource=\""+self.ontoName+"ArtigoEmRevista\"/>\n"
         for autor in self.hashmap['AU']:
-            individuo += "\t<autor>"+autor.strip()+"</autor>\n"
-        individuo += "\t<titulo>"+self.hashmap['TI']+"</titulo>\n"
-        individuo += "\t<anoPublicacao>"+self.hashmap['PY']+"</anoPublicacao>\n"
+            individuo += "\t<autor rdf:datatype=\"&xsd;string\">"+autor.strip()+"</autor>\n"
+        individuo += "\t<titulo rdf:datatype=\"&xsd;string\">"+self.hashmap['TI']+"</titulo>\n"
+        individuo += "\t<anoPublicacao rdf:datatype=\"&xsd;int\">"+self.hashmap['PY']+"</anoPublicacao>\n"
         individuo += "\t<temAutor rdf:resource=\""+self.ontoName + self.autor+"\"/>\n"
         individuo += "\t<publicadoEm rdf:resource=\""+self.ontoName + revista+"\"/>\n"
         individuo += "</owl:NamedIndividual>\n\n"
@@ -213,8 +259,8 @@ class Interpreter:
         #criando a revista
         individuo += "<owl:NamedIndividual rdf:about=\""+self.ontoName + revista+"\">\n"
         individuo += "\t<rdf:type rdf:resource=\""+self.ontoName+"Revista\"/>\n"
-        individuo += "\t<titulo>"+self.hashmap['JO']+"</titulo>\n"
-        individuo += "</owl:NamedIndividual>\n"
+        individuo += "\t<titulo rdf:datatype=\"&xsd;string\">"+self.hashmap['JO']+"</titulo>\n"
+        individuo += "</owl:NamedIndividual>\n\n"
         return individuo
 
     #>>> cria um indivíduo do tipo ArtigoEmConferencia
@@ -227,9 +273,9 @@ class Interpreter:
         individuo = "<owl:NamedIndividual rdf:about=\""+self.ontoName + artigo+"\">\n"
         individuo += "\t<rdf:type rdf:resource=\""+self.ontoName+"ArtigoEmConferencia\"/>\n"
         for autor in self.hashmap['AU']:
-            individuo += "\t<autor>"+autor.strip()+"</autor>\n"
-        individuo += "\t<titulo>"+self.hashmap['T1']+"</titulo>\n"
-        individuo += "\t<anoPublicacao>"+self.hashmap['PY']+"</anoPublicacao>\n"
+            individuo += "\t<autor rdf:datatype=\"&xsd;string\">"+autor.strip()+"</autor>\n"
+        individuo += "\t<titulo rdf:datatype=\"&xsd;string\">"+self.hashmap['T1']+"</titulo>\n"
+        individuo += "\t<anoPublicacao rdf:datatype=\"&xsd;int\">"+self.hashmap['PY']+"</anoPublicacao>\n"
         individuo += "\t<temAutor rdf:resource=\""+self.ontoName + self.autor+"\"/>\n"
         individuo += "\t<publicadoEm rdf:resource=\""+self.ontoName + conf+"\"/>\n"
         individuo += "</owl:NamedIndividual>\n\n"
@@ -237,8 +283,8 @@ class Interpreter:
         #criando a conferência
         individuo += "<owl:NamedIndividual rdf:about=\""+self.ontoName + conf+"\">\n"
         individuo += "\t<rdf:type rdf:resource=\""+self.ontoName+"Conferencia\"/>\n"
-        individuo += "\t<titulo>"+self.hashmap['TI']+"</titulo>\n"
-        individuo += "</owl:NamedIndividual>\n"
+        individuo += "\t<titulo rdf:datatype=\"&xsd;string\">"+self.hashmap['TI']+"</titulo>\n"
+        individuo += "</owl:NamedIndividual>\n\n"
         return individuo
 
 
