@@ -1,0 +1,93 @@
+SPARQL queries:
+
+1. Quais os alnos que publicaram na revista "XXX" junto com o seu orientador?
+
+SELECT  ?aluno
+WHERE { ?artigo onto:publicadoEm ?revista.
+             ?revista a onto:Revista.
+             ?revista onto:titulo "XXX"^^xsd:string.
+             ?aluno onto:nomeCitacao ?nomealuno.
+             ?aluno a onto:Aluno.
+             ?artigo a onto:ArtigoEmRevista.
+             ?artigo onto:autor ?nomealuno.
+             ?artigo onto:autor ?nomeprofessor.
+             ?professor onto:nomeCitacao ?nomeprofessor.
+             ?aluno onto:temOrientador ?professor }
+
+
+2. Quais professores do departamento publicaram artigos em revista junto com pelo menos um orientando?
+
+SELECT ?professor
+WHERE {?professor onto:afiliado onto:Departamento_de_Ciência_Da_Computação.
+             ?professor a onto:Professor.
+             ?professor onto:nomeCitacao ?nomeprofessor.
+             ?artigo a onto:ArtigoEmRevista.
+             ?artigo onto:autor ?nomeprofessor.
+             ?orientando a onto:Aluno.
+             ?orientando onto:nomeCitacao ?nomealuno.
+             ?artigo onto:autor ?nomealuno.
+             ?orientando onto:temOrientador ?professor }
+
+
+3. Quais artigos em revista têm como autores um professor do departamento e um (ex-)aluno de pós?
+
+SELECT ?artigo
+WHERE {?professor onto:afiliado onto:Departamento_de_Ciência_Da_Computação.
+            ?professor onto:nomeCitacao ?nomeprofessor.
+            ?aluno a onto:Aluno.
+            ?aluno onto:nomeCitacao ?nomealuno.
+            ?artigo a onto:ArtigoEmRevista.
+            ?artigo onto:autor ?nomeprofessor.
+            ?artigo onto:autor ?nomealuno }
+
+
+4. Quais professores estudaram na Europa?
+
+SELECT ?professor
+WHERE {?professor a onto:Professor.
+            ?professor onto:estudouEm ?pais.
+            ?pais onto:pertenceAoContinente onto:Europa}
+
+
+
+5. Quais professores foram orientados por professores do IME?
+
+SELECT ?orientando
+WHERE {?orientando a onto:Professor.
+            ?orientando onto:temOrientador ?orientador.
+            ?orientador a onto:Professor.
+            ?orientador onto:afiliado ?departamento.
+            ?departamento onto:fazParteDeOrgao onto:Instituto_de_Matemática_e_Estatística. }
+
+
+6. Quais professores são co-autores de outros professores do mesmo departamento?
+
+SELECT ?professorA
+WHERE {?professorA a onto:Professor.
+            ?professorB a onto:Professor.
+            ?professorA onto:nomeCitacao ?nomeprofessorA.
+            ?professorB onto:nomeCitacao ?nomeprofessorB.
+            ?artigo onto:autor ?nomeprofessorA.
+            ?artigo onto:autor ?nomeprofessorB.
+            ?professorA onto:afiliado ?departamento.
+            ?professorB onto:afiliado ?departamento.
+            ?departamento a onto:Departamento.
+            FILTER (?professorA != ?professorB)}
+
+
+7. Quais professores publicaram artigos no ano "XX"?
+
+SELECT ?professor
+WHERE {?professor onto:nomeCitacao ?nome.
+       ?artigo onto:autor ?nome.
+       ?artigo onto:anoPublicacao "XX"^^xsd:int }
+
+
+8. Quais artigos em revista foram publicados por professores no ano XX?
+
+SELECT DISTINCT ?artigo
+WHERE {?artigo a onto:ArtigoEmRevista.
+    ?artigo onto:autor ?nomeProfessor.
+    ?professor a onto:Professor.
+    ?professor onto:nomeCitacao ?nomeProfessor.
+    ?artigo onto:anoPublicacao "1999"^^xsd:int}
